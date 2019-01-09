@@ -8,17 +8,13 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="parallax">
-
-          <div className="parallax__layer parallax__layer--base">
-            <img className="heart" src={heart} />
-          </div>
-
-          <div className="parallax__layer parallax__layer--back">
-            <div className="bars" style={{backgroundImage: `url(${bar})`}} />
-          </div>
-        
+        <div className="parallax__layer parallax__layer--back">
+          <div className="bars" style={{backgroundImage: `url(${bar})`}} />
         </div>
+          
+        <img className="heart" src={heart} />
+
+        <div className="blueness"></div>
 
       </div>
     );

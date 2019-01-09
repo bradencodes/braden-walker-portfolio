@@ -1,9 +1,5 @@
 .App {
   text-align: center;
-  height: 3000px;
-}
-
-.parallax {
   perspective: 1px;
   height: 100vh;
   overflow-x: hidden;
@@ -11,7 +7,6 @@
 }
 
 .parallax__layer {
-  padding: 100vh 0;
   position: absolute;
   top: 0;
   right: 0;
@@ -20,11 +15,23 @@
 }
 
 .parallax__layer--back {
-  -webkit-transform: translateZ(-1px) scale(2);
+  -webkit-transform: translateZ(-.03px) scale(1.03);
   transform: translateZ(-.03px) scale(1.03);
 }
 
 .bars {
   width: 3000px;
-  height: 1000px;
+  height: 3000px;
+}
+
+.heart {
+  margin-top: 100vh;
+  z-index: -50;
+}
+
+.blueness {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  z-index: 50;
 }
