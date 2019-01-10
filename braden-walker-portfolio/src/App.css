@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   perspective: 1px;
   height: 100vh;
   overflow-x: hidden;
@@ -24,14 +24,23 @@
   height: 3000px;
 }
 
-.heart {
-  margin-top: 100vh;
-  z-index: -50;
+.foreground {
+  -webkit-transform: translateZ(-.03px) scale(1.03);
+  transform: translateZ(0px) scale(1);
 }
 
-.blueness {
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  z-index: 50;
+.topWhite {
+  background-color: white;
+  width: 3000px;
+  height: 1000px;
+}
+
+.heart {
+  margin: 20px;
+}
+
+.bottomWhite {
+  background-color: white;
+  width: 3000px;
+  height: 3000px;
 }

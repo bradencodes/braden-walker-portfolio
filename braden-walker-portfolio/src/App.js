@@ -11,10 +11,16 @@ class App extends Component {
         <div className="parallax__layer parallax__layer--back">
           <div className="bars" style={{backgroundImage: `url(${bar})`}} />
         </div>
-          
-        <img className="heart" src={heart} />
 
-        <div className="blueness"></div>
+        <div className="foreground">
+          <div className="topWhite"></div>
+        </div>
+          
+        <img className="heart" src={heart} int="heart" />
+
+        <div className="foreground">
+          <div className="bottomWhite"></div>
+        </div>
 
       </div>
     );
