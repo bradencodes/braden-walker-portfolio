@@ -15,7 +15,7 @@
 }
 
 .parallax__layer--back {
-  -webkit-transform: translateZ(-.03px) scale(1.03);
+  -webkit-transform: translateZ(-.07px) scale(1.07);
   transform: translateZ(-.07px) scale(1.07);
 }
 
@@ -26,18 +26,18 @@
 }
 
 .foreground {
-  -webkit-transform: translateZ(-.03px) scale(1.03);
+  -webkit-transform: translateZ(0px) scale(1);
   transform: translateZ(0px) scale(1);
 }
 
 .topWhite {
   background-color: white;
   width: 3000px;
-  height: 1300px;
+  height: 1230px;
 }
 
 .heart {
-  margin: 1210px 20px 20px 20px;
+  margin: 1210px 20px 0px 20px;
 }
 
 .bottomWhite {
