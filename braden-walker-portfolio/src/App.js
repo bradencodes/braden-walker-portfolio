@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import bar from './resources/bar.svg';
-import heart from './resources/heartTest.png';
+import heart from './resources/smallHeartTest.png';
 import './App.css';
 
 class App extends Component {
@@ -8,15 +8,17 @@ class App extends Component {
     return (
       <div className="App">
 
+        <div className="topWhite"></div>
+
         <div className="parallax__layer parallax__layer--back">
-          <div className="bars" style={{backgroundImage: `url(${bar})`}} />
+          <img className="heart" src={heart} int="heart" />
         </div>
 
         <div className="foreground">
-          <div className="topWhite"></div>
+          <div className="bars" style={{backgroundImage: `url(${bar})`}} />
         </div>
           
-        <img className="heart" src={heart} int="heart" />
+        
 
         <div className="foreground">
           <div className="bottomWhite"></div>
