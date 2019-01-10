@@ -16,13 +16,13 @@
 
 .parallax__layer--back {
   -webkit-transform: translateZ(-.07px) scale(1.07);
-  transform: translateZ(-.07px) scale(1.07);
+  transform: translateZ(-.1px) scale(1.1);
 }
 
 .bars {
   /* display: none; */
   width: 2000px;
-  height: 100px;
+  height: 134px;
 }
 
 .foreground {
@@ -37,7 +37,7 @@
 }
 
 .heart {
-  margin: 1210px 20px 0px 20px;
+  margin: 1200px 20px 0px 20px;
 }
 
 .bottomWhite {
