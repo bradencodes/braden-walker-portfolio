@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import bar from './resources/bar2-8.svg';
-import heart from './resources/about2-8.png';
+import heart from './resources/projects2-8.png';
 import './App.css';
 
 class App extends Component {
