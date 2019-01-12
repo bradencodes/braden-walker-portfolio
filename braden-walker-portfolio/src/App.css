@@ -23,13 +23,18 @@
 
 .parallax__layer--me {
   -webkit-transform: translateZ(-.01px) scale(1.01);
-  transform: translateZ(-.01px) scale(1.01);
+  transform: translateZ(-.01px) scale(0.505);
+}
+
+.bars-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
 }
 
 .bars {
-  /* display: none; */
-  width: 100%;
-  height: 320px;
+  object-fit: cover;
+  height: 240px;
 }
 
 .foreground {
@@ -37,14 +42,8 @@
   transform: translateZ(0px) scale(1);
 }
 
-.topWhite {
-  background-color: white;
-  width: 3000px;
-  height: 1230px;
-}
-
 .scanimations {
-  margin: 1230px 0 -310px;
+  margin: 1230px 0 -224px;
   position: relative;
   transform-style: preserve-3d;
   display: flex;

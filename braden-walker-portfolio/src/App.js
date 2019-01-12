@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import bar from './resources/bar2-8.svg';
+import bar from './resources/bars2-8.png';
+// import bar from './resources/bar2-8.svg';
 import me from './resources/me2-8.png';
 import about from './resources/about2-8.png';
 import projects from './resources/projects2-8.png';
@@ -13,8 +14,6 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="topWhite"></div>
-        
         <div className="scanimations">
           <img className="parallax__layer parallax__layer--back scanimation" src={about} int="about" />
           <img className="parallax__layer parallax__layer--back scanimation" src={projects} int="projects" />
@@ -29,7 +28,9 @@ class App extends Component {
           <img className="parallax__layer parallax__layer--me scanimation" src={me} int="about" />
         </div>
         
-        <div className="foreground bars" style={{backgroundImage: `url(${bar})`}} />
+        <div className="bars-container">
+          <img src={bar} alt="bars" className="foreground bars" />
+        </div>
         
         <div className="bottomWhite"></div>
 
