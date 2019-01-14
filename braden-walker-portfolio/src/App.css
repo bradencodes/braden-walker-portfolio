@@ -14,6 +14,14 @@
   overflow: hidden;
 }
 
+.sticker-container{
+  width: 200px;
+  height: 200px;
+  margin: 1500px 100px 100px 100px;
+  box-shadow: inset 10px 10px 30px -14px grey;
+  overflow: hidden;
+}
+
 /* .parallax__layer {
   position: absolute;
   top: 0;
@@ -42,8 +50,8 @@
 }
 
 .bars {
-  object-fit: cover;
-  /* height: 240px; */
+  /* object-fit: cover; */
+  height: 240px;
 }
 
 .foreground {

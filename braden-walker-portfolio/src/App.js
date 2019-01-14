@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bar from './resources/bars45.png';
+import bar from './resources/bars45large.png';
 // import bar from './resources/bars2-8.png';
 // import bar from './resources/bar2-8.svg';
 import me from './resources/me2-8.png';
@@ -29,7 +29,9 @@ class App extends Component {
           <img className="parallax__layer parallax__layer--back scanimation" src={contact} int="contact" />
         </div>
         
-        <div className="foreground bars" style={{backgroundImage: `url(${bar})`}} />
+        <div className="bars-container">
+          <div className="foreground bars" style={{backgroundImage: `url(${bar})`}} />
+        </div>
 
         <div className="bars-container">
           <img src={bar} alt="bars" className="foreground bars" />
