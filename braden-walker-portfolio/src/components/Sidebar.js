@@ -19,6 +19,8 @@ class Sidebar extends Component {
                 
                 </div>
 
+                <div className="sidebar-extended-shadow" />
+
                 <div className="about">about</div>
 
                 <div className="projects">projects</div>
