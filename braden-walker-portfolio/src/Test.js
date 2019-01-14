@@ -14,16 +14,16 @@ class App extends Component {
       <div className="App">
 
         <div className="cutout-container">
-          <img className="parallax__layer--back" src={contact} int="contact" />
+          <img className="parallax__layer--back" src={contact} alt="contact" />
         </div>
 
 
         <div className="scanimations">
-          <img className="parallax__layer--back" src={about} int="about" />
-          <img className="parallax__layer--back" src={projects} int="projects" />
-          <img className="parallax__layer--back" src={articles} int="articles" />
-          <img className="parallax__layer--back" src={resume} int="resume" />
-          <img className="parallax__layer--back" src={contact} int="contact" />
+          <img className="parallax__layer--back" src={about} alt="about" />
+          <img className="parallax__layer--back" src={projects} alt="projects" />
+          <img className="parallax__layer--back" src={articles} alt="articles" />
+          <img className="parallax__layer--back" src={resume} alt="resume" />
+          <img className="parallax__layer--back" src={contact} alt="contact" />
         </div>
 
         <div className="bars-container">
@@ -31,7 +31,7 @@ class App extends Component {
         </div>
 
         <div className="scanimations">
-          <img className="parallax__layer--me" src={me} int="about" />
+          <img className="parallax__layer--me" src={me} alt="about" />
         </div>
         
         <div className="bars-container">
