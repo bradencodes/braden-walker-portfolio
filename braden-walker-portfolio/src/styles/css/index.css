@@ -20,11 +20,6 @@ html {
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
 }
 .app {
-  perspective: 1px;
-  height: 100vh;
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
   font-family: 'Raleway', sans-serif;
 }
 .sidebar-container {
@@ -33,6 +28,7 @@ html {
 }
 .sidebar-container .sidebar {
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.35);
+  background: #ffffff;
   height: 100vh;
   width: 180px;
   position: absolute;
@@ -47,8 +43,9 @@ html {
   font-size: 4rem;
   margin-top: 40px;
   width: 150px;
-  height: 150px;
+  min-height: 120px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
   text-align: center;
   cursor: pointer;
 }
@@ -67,6 +64,7 @@ html {
   padding: 10px;
   margin-bottom: 20px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
   cursor: pointer;
 }
 .sidebar-container .sidebar-extended-shadow {
@@ -161,4 +159,11 @@ html {
   margin-top: 60vh;
   width: 125px;
   padding-left: 6px;
+}
+.home-container {
+  perspective: 1px;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
