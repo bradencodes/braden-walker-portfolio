@@ -14,7 +14,13 @@ class Sidebar extends Component {
                     <div className="my-name">Braden Walker</div>
 
                     <div className="quick-contacts">
-                        {/* <img src={github} alt="github-logo"></img> */}
+                    
+                        <img src={github} alt="github"></img>
+
+                        <img src={linkedin} alt="linkedin"></img>
+
+                        <img src={email} alt="email"></img>
+
                     </div>
                 
                 </div>

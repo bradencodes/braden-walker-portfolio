@@ -7,12 +7,40 @@
         height: 100vh;
         width: 180px;
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .my-name {
+            display: flex;
+            align-items: center;
             font-family: @secondary-font;
             font-size: 4rem;
-            padding-top: 40px;
+            margin-top: 40px;
+            width: 150px;
+            height: 150px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, .20);
             text-align: center;
+            cursor: pointer;
+        }
+
+        .quick-contacts {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            margin-bottom: 50px;
+
+            img {
+                width: 50px;
+                height: 50px;
+                padding: 10px;
+                margin-bottom: 20px;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, .10);
+                cursor: pointer;
+            }
         }
     }
 
@@ -24,13 +52,14 @@
         z-index: -2;
     }
 
-    @nav-offset: 100px;
-    @nav-spacing: 100px;
+
+    @nav-offset: 20vh;
+    @nav-spacing: 10vh;
 
     .about {
         #sidebar > .nav;
 
-        margin-top: (@nav-spacing * 1) + @nav-offset;
+        margin-top: (@nav-spacing * 0) + @nav-offset;
         width: 100px;
 
         z-index: 1;
@@ -41,7 +70,7 @@
     .projects {
         #sidebar > .nav;
 
-        margin-top: (@nav-spacing * 2) + @nav-offset;
+        margin-top: (@nav-spacing * 1) + @nav-offset;
         width: 140px;
 
         // z-index: 1;
@@ -52,7 +81,7 @@
     .articles {
         #sidebar > .nav;
 
-        margin-top: (@nav-spacing * 3) + @nav-offset;
+        margin-top: (@nav-spacing * 2) + @nav-offset;
         width: 135px;
 
         // z-index: 1;
@@ -63,7 +92,7 @@
     .resume {
         #sidebar > .nav;
 
-        margin-top: (@nav-spacing * 4) + @nav-offset;
+        margin-top: (@nav-spacing * 3) + @nav-offset;
         width: 120px;
 
         // z-index: 1;
@@ -74,7 +103,7 @@
     .contact {
         #sidebar > .nav;
 
-        margin-top: (@nav-spacing * 5) + @nav-offset;
+        margin-top: (@nav-spacing * 4) + @nav-offset;
         width: 125px;
 
         // z-index: 1;
