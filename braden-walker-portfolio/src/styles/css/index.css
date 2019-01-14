@@ -2,6 +2,22 @@
   box-sizing: border-box;
   outline: none;
 }
+html {
+  font-size: 62.5%;
+}
+#sidebar .nav {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+}
 .app {
   perspective: 1px;
   height: 100vh;
@@ -9,4 +25,101 @@
   overflow-x: hidden;
   overflow-y: auto;
   font-family: 'Raleway', sans-serif;
+}
+.sidebar-container {
+  width: 100%;
+  position: relative;
+}
+.sidebar-container .sidebar {
+  box-shadow: 10px 0px 30px -14px grey;
+  height: 100vh;
+  width: 180px;
+  position: absolute;
+}
+.sidebar-container .sidebar .my-name {
+  font-family: 'Staatliches', cursive;
+  font-size: 4rem;
+  padding-top: 40px;
+  text-align: center;
+}
+.sidebar-container .about {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+  margin-top: 200px;
+  width: 100px;
+  z-index: 1;
+  border-left: #0099dd solid 6px;
+}
+.sidebar-container .projects {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+  margin-top: 300px;
+  width: 140px;
+  padding-left: 6px;
+}
+.sidebar-container .articles {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+  margin-top: 400px;
+  width: 135px;
+  padding-left: 6px;
+}
+.sidebar-container .resume {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+  margin-top: 500px;
+  width: 120px;
+  padding-left: 6px;
+}
+.sidebar-container .contact {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  background: #ffffff;
+  box-shadow: 8px 8px 10px -3px lightgrey;
+  margin-top: 600px;
+  width: 125px;
+  padding-left: 6px;
 }

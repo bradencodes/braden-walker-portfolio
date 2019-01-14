@@ -1,0 +1,77 @@
+.sidebar-container {
+    width: 100%;
+    position: relative;
+
+    .sidebar {
+        box-shadow: 10px 0px 30px -14px grey;
+        height: 100vh;
+        width: 180px;
+        position: absolute;
+
+        .my-name {
+            font-family: @secondary-font;
+            font-size: 4rem;
+            padding-top: 40px;
+            text-align: center;
+        }
+    }
+
+    @nav-offset: 100px;
+    @nav-spacing: 100px;
+
+    .about {
+        #sidebar > .nav;
+
+        margin-top: (@nav-spacing * 1) + @nav-offset;
+        width: 100px;
+
+        z-index: 1;
+        border-left: @cyan solid 6px;
+        // padding-left: 6px;
+    }
+    
+    .projects {
+        #sidebar > .nav;
+
+        margin-top: (@nav-spacing * 2) + @nav-offset;
+        width: 140px;
+
+        // z-index: 1;
+        // border-left: @magenta solid 6px;
+        padding-left: 6px;
+    }
+
+    .articles {
+        #sidebar > .nav;
+
+        margin-top: (@nav-spacing * 3) + @nav-offset;
+        width: 135px;
+
+        // z-index: 1;
+        // border-left: @yellow solid 6px;
+        padding-left: 6px;
+    }
+
+    .resume {
+        #sidebar > .nav;
+
+        margin-top: (@nav-spacing * 4) + @nav-offset;
+        width: 120px;
+
+        // z-index: 1;
+        // border-left: @cyan solid 6px;
+        padding-left: 6px;
+    }
+
+    .contact {
+        #sidebar > .nav;
+
+        margin-top: (@nav-spacing * 5) + @nav-offset;
+        width: 125px;
+
+        // z-index: 1;
+        // border-left: @magenta solid 6px;
+        padding-left: 6px;
+    }
+
+}
