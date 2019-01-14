@@ -1,5 +1,6 @@
 .sidebar-container {
     width: 100%;
+    z-index: 100;
     position: relative;
 
     .sidebar {
@@ -65,9 +66,10 @@
         margin-top: (@nav-spacing * 0) + @nav-offset;
         width: 100px;
 
-        z-index: 1;
-        border-left: @cyan solid 6px;
-        // padding-left: 6px;
+        z-index: -1;
+        padding-left: 6px;
+        // z-index: 1;
+        // border-left: @cyan solid 6px;
     }
     
     .projects {
@@ -76,31 +78,34 @@
         margin-top: (@nav-spacing * 1) + @nav-offset;
         width: 140px;
 
+        z-index: -2;
+        padding-left: 6px;
         // z-index: 1;
         // border-left: @magenta solid 6px;
-        padding-left: 6px;
     }
 
     .articles {
         #sidebar > .nav;
 
         margin-top: (@nav-spacing * 2) + @nav-offset;
-        width: 135px;
+        width: 131px;
 
+        z-index: -3;
+        padding-left: 6px;
         // z-index: 1;
         // border-left: @yellow solid 6px;
-        padding-left: 6px;
     }
 
     .resume {
         #sidebar > .nav;
 
         margin-top: (@nav-spacing * 3) + @nav-offset;
-        width: 120px;
+        width: 118px;
 
+        z-index: -4;
+        padding-left: 6px;
         // z-index: 1;
         // border-left: @cyan solid 6px;
-        padding-left: 6px;
     }
 
     .contact {
@@ -109,9 +114,10 @@
         margin-top: (@nav-spacing * 4) + @nav-offset;
         width: 125px;
 
+        z-index: -5;
+        padding-left: 6px;
         // z-index: 1;
         // border-left: @magenta solid 6px;
-        padding-left: 6px;
     }
 
 }

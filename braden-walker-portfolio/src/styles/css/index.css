@@ -21,9 +21,11 @@ html {
 }
 .app {
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
 .sidebar-container {
   width: 100%;
+  z-index: 100;
   position: relative;
 }
 .sidebar-container .sidebar {
@@ -78,7 +80,6 @@ html {
   height: 50px;
   margin-left: 174px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,8 +90,8 @@ html {
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   margin-top: 20vh;
   width: 100px;
-  z-index: 1;
-  border-left: #0099dd solid 6px;
+  z-index: -1;
+  padding-left: 6px;
 }
 .sidebar-container .projects {
   height: 50px;
@@ -107,6 +108,7 @@ html {
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   margin-top: 30vh;
   width: 140px;
+  z-index: -2;
   padding-left: 6px;
 }
 .sidebar-container .articles {
@@ -123,7 +125,8 @@ html {
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   margin-top: 40vh;
-  width: 135px;
+  width: 131px;
+  z-index: -3;
   padding-left: 6px;
 }
 .sidebar-container .resume {
@@ -140,7 +143,8 @@ html {
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   margin-top: 50vh;
-  width: 120px;
+  width: 118px;
+  z-index: -4;
   padding-left: 6px;
 }
 .sidebar-container .contact {
@@ -158,6 +162,7 @@ html {
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   margin-top: 60vh;
   width: 125px;
+  z-index: -5;
   padding-left: 6px;
 }
 .home-container {
