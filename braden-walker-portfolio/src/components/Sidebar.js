@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import github from '../resources/contacts/github-logo.svg';
+import linkedin from '../resources/contacts/linkedin-logo.svg';
+import email from '../resources/contacts/email.svg';
+
 class Sidebar extends Component {
     render() {
         return (
@@ -8,6 +12,10 @@ class Sidebar extends Component {
                 <div className="sidebar">
                 
                     <div className="my-name">Braden Walker</div>
+
+                    <div className="quick-contacts">
+                        {/* <img src={github} alt="github-logo"></img> */}
+                    </div>
                 
                 </div>
 
