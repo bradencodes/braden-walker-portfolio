@@ -14,16 +14,16 @@ class App extends Component {
       <div className="App">
 
         <div className="cutout-container">
-          <img className="parallax__layer parallax__layer--back scanimation" src={contact} int="contact" />
+          <img className="parallax__layer--back" src={contact} int="contact" />
         </div>
 
 
         <div className="scanimations">
-          <img className="parallax__layer parallax__layer--back scanimation" src={about} int="about" />
-          <img className="parallax__layer parallax__layer--back scanimation" src={projects} int="projects" />
-          <img className="parallax__layer parallax__layer--back scanimation" src={articles} int="articles" />
-          <img className="parallax__layer parallax__layer--back scanimation" src={resume} int="resume" />
-          <img className="parallax__layer parallax__layer--back scanimation" src={contact} int="contact" />
+          <img className="parallax__layer--back" src={about} int="about" />
+          <img className="parallax__layer--back" src={projects} int="projects" />
+          <img className="parallax__layer--back" src={articles} int="articles" />
+          <img className="parallax__layer--back" src={resume} int="resume" />
+          <img className="parallax__layer--back" src={contact} int="contact" />
         </div>
 
         <div className="bars-container">
@@ -31,7 +31,7 @@ class App extends Component {
         </div>
 
         <div className="scanimations">
-          <img className="parallax__layer parallax__layer--me scanimation" src={me} int="about" />
+          <img className="parallax__layer--me" src={me} int="about" />
         </div>
         
         <div className="bars-container">
