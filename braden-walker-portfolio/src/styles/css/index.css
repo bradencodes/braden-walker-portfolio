@@ -20,6 +20,11 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+@media (min-width: 1800px) {
+  #sidebar .nav {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 600px) {
   #sidebar .nav {
     margin-left: 100px;
@@ -58,7 +63,9 @@ html {
 }
 @media (min-width: 1800px) {
   .sidebar-container .sidebar {
-    width: 15%;
+    width: 10%;
+    align-items: flex-end;
+    padding-right: 20px;
   }
 }
 @media (max-width: 600px) {
@@ -100,6 +107,12 @@ html {
   justify-content: flex-end;
   margin-bottom: 50px;
   z-index: 1;
+}
+@media (min-width: 1800px) {
+  .sidebar-container .sidebar .quick-contacts {
+    align-items: flex-end;
+    padding-right: 50px;
+  }
 }
 .sidebar-container .sidebar .quick-contacts img {
   width: 50px;
@@ -143,6 +156,11 @@ html {
   z-index: 1;
   display: none;
 }
+@media (min-width: 1800px) {
+  .sidebar-container .toggle-nav {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 600px) {
   .sidebar-container .toggle-nav {
     margin-left: 100px;
@@ -180,6 +198,11 @@ html {
   width: 100px;
   z-index: -1;
 }
+@media (min-width: 1800px) {
+  .sidebar-container .about {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 600px) {
   .sidebar-container .about {
     margin-left: 100px;
@@ -211,6 +234,11 @@ html {
   margin-top: 30vh;
   width: 140px;
   z-index: -2;
+}
+@media (min-width: 1800px) {
+  .sidebar-container .projects {
+    margin-left: 10%;
+  }
 }
 @media (max-width: 600px) {
   .sidebar-container .projects {
@@ -244,6 +272,11 @@ html {
   width: 131px;
   z-index: -3;
 }
+@media (min-width: 1800px) {
+  .sidebar-container .articles {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 600px) {
   .sidebar-container .articles {
     margin-left: 100px;
@@ -275,6 +308,11 @@ html {
   margin-top: 50vh;
   width: 118px;
   z-index: -4;
+}
+@media (min-width: 1800px) {
+  .sidebar-container .resume {
+    margin-left: 10%;
+  }
 }
 @media (max-width: 600px) {
   .sidebar-container .resume {
@@ -308,6 +346,11 @@ html {
   width: 125px;
   z-index: -5;
 }
+@media (min-width: 1800px) {
+  .sidebar-container .contact {
+    margin-left: 10%;
+  }
+}
 @media (max-width: 600px) {
   .sidebar-container .contact {
     margin-left: 100px;
@@ -321,6 +364,20 @@ html {
   bottom: 0px;
   left: -6px;
   border-left: 6px solid #d90d79;
+}
+.sidebar-container .rightbar {
+  display: none;
+}
+@media (min-width: 1800px) {
+  .sidebar-container .rightbar {
+    display: flex;
+    box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.35);
+    background: #ffffff;
+    height: 100vh;
+    width: 10%;
+    position: absolute;
+    right: 0;
+  }
 }
 .hidden {
   margin-left: 0;

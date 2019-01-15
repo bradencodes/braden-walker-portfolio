@@ -63,6 +63,8 @@ class Sidebar extends Component {
 
                 <div className="contact">contact</div>
 
+                <div className="rightbar"></div>
+
             </div>
         );
     }
