@@ -3,11 +3,33 @@ import React, { Component } from 'react';
 import github from '../resources/contacts/github-logo.svg';
 import linkedin from '../resources/contacts/linkedin-logo.svg';
 import email from '../resources/contacts/email.svg';
+import arrow from '../resources/icons/down-arrow.png';
 
 class Sidebar extends Component {
+    constructor() {
+        super();
+        this.state = {
+            isHidden: false,
+        };
+    };
+
+    handleSidebarContainerClass = () => {
+        if (this.state.isHidden) return "sidebar-container hidden";
+        return "sidebar-container";
+    }
+
+    handleArrowClass = () => {
+        if (this.state.isHidden) return "arrow-right";
+        return "arrow-left";
+    }
+
+    toggleIsHidden = () => {
+        this.setState({ isHidden: !this.state.isHidden });
+    }
+
     render() {
         return (
-            <div className="sidebar-container">
+            <div className={this.handleSidebarContainerClass()}>
 
                 <div className="sidebar">
                 
@@ -26,6 +48,10 @@ class Sidebar extends Component {
                 </div>
 
                 <div className="sidebar-extended-shadow" />
+
+                <div className="toggle-nav" onClick={() => this.toggleIsHidden()}>
+                    <img className={this.handleArrowClass()} src={arrow} alt='🔽' />
+                </div>
 
                 <div className="about">about</div>
 

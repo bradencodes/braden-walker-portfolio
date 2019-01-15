@@ -18,6 +18,8 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 .app {
   font-family: 'Raleway', sans-serif;
@@ -27,6 +29,10 @@ html {
   width: 100%;
   z-index: 100;
   position: relative;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .sidebar-container .sidebar {
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.35);
@@ -47,6 +53,7 @@ html {
   width: 150px;
   min-height: 120px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
   background: #ffffff;
   text-align: center;
   cursor: pointer;
@@ -66,6 +73,7 @@ html {
   padding: 10px;
   margin-bottom: 20px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
   background: #ffffff;
   cursor: pointer;
 }
@@ -75,6 +83,34 @@ html {
   width: 180px;
   position: absolute;
   z-index: -2;
+}
+.sidebar-container .toggle-nav {
+  height: 50px;
+  margin-left: 174px;
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-top: 0;
+  width: 200px;
+  padding-left: 150px;
+  z-index: 1;
+}
+.sidebar-container .toggle-nav .arrow-left {
+  height: 30px;
+  transform: rotate(90deg);
+}
+.sidebar-container .toggle-nav .arrow-right {
+  height: 30px;
+  transform: rotate(-90deg);
 }
 .sidebar-container .about {
   height: 50px;
@@ -88,6 +124,8 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   margin-top: 20vh;
   width: 100px;
   z-index: -1;
@@ -106,6 +144,8 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   margin-top: 30vh;
   width: 140px;
   z-index: -2;
@@ -124,6 +164,8 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   margin-top: 40vh;
   width: 131px;
   z-index: -3;
@@ -142,6 +184,8 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   margin-top: 50vh;
   width: 118px;
   z-index: -4;
@@ -160,10 +204,15 @@ html {
   cursor: pointer;
   background: #ffffff;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
   margin-top: 60vh;
   width: 125px;
   z-index: -5;
   padding-left: 6px;
+}
+.hidden {
+  margin-left: -325px;
 }
 .home-container {
   perspective: 1px;
@@ -182,7 +231,7 @@ html {
   /* transform: translateZ(-.01px) scale(0.505); half size */
   transform: translateZ(-0.01px) scale(1.01);
   margin-top: 30vh;
-  margin-left: 50px;
+  margin-left: 52px;
 }
 .bars-container {
   height: 300px;
