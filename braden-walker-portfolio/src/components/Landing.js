@@ -7,7 +7,7 @@ import arrow from '../resources/icons/down-arrow.png';
 class Landing extends Component {
     render() {
         return (
-            <div className="landing-container">
+            <div>
 
                 <div className="scanimations">
                     <img className="parallax__layer--me" src={me} alt="me" />

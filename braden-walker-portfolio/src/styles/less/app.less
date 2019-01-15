@@ -2,4 +2,23 @@
     font-family: @primary-font;
     width: 100%;
     display: flex;
+
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+
+    .rightbar {
+        display: flex;
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, .35);
+        background: @white;
+        height: 100%;
+        position: sticky;
+        top: 0;
+    }
 }
