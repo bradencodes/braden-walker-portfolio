@@ -7,9 +7,8 @@ html {
 }
 #sidebar .nav {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +22,16 @@ html {
 }
 @media (max-width: 600px) {
   #sidebar .nav {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+#sidebar .nav-before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
 }
 .app {
   font-family: 'Raleway', sans-serif;
@@ -48,6 +55,11 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width: 1800px) {
+  .sidebar-container .sidebar {
+    width: 15%;
+  }
 }
 @media (max-width: 600px) {
   .sidebar-container .sidebar {
@@ -113,9 +125,8 @@ html {
 }
 .sidebar-container .toggle-nav {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,14 +138,14 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: 0;
-  width: 200px;
+  width: 195px;
   padding-right: 11px;
   z-index: 1;
   display: none;
 }
 @media (max-width: 600px) {
   .sidebar-container .toggle-nav {
-    margin-left: 94px;
+    margin-left: 100px;
   }
 }
 @media (max-width: 1200px) {
@@ -153,7 +164,7 @@ html {
 }
 .sidebar-container .about {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -168,18 +179,25 @@ html {
   margin-top: 20vh;
   width: 100px;
   z-index: -1;
-  padding-left: 6px;
 }
 @media (max-width: 600px) {
   .sidebar-container .about {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+.sidebar-container .about::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
+  border-left: 6px solid #0099dd;
 }
 .sidebar-container .projects {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,18 +211,25 @@ html {
   margin-top: 30vh;
   width: 140px;
   z-index: -2;
-  padding-left: 6px;
 }
 @media (max-width: 600px) {
   .sidebar-container .projects {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+.sidebar-container .projects::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
+  border-left: 6px solid #d90d79;
 }
 .sidebar-container .articles {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -218,18 +243,25 @@ html {
   margin-top: 40vh;
   width: 131px;
   z-index: -3;
-  padding-left: 6px;
 }
 @media (max-width: 600px) {
   .sidebar-container .articles {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+.sidebar-container .articles::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
+  border-left: 6px solid #ffdd00;
 }
 .sidebar-container .resume {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -243,18 +275,25 @@ html {
   margin-top: 50vh;
   width: 118px;
   z-index: -4;
-  padding-left: 6px;
 }
 @media (max-width: 600px) {
   .sidebar-container .resume {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+.sidebar-container .resume::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
+  border-left: 6px solid #0099dd;
 }
 .sidebar-container .contact {
   height: 50px;
-  margin-left: 174px;
+  margin-left: 180px;
   position: absolute;
-  z-index: -1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,12 +307,20 @@ html {
   margin-top: 60vh;
   width: 125px;
   z-index: -5;
-  padding-left: 6px;
 }
 @media (max-width: 600px) {
   .sidebar-container .contact {
-    margin-left: 94px;
+    margin-left: 100px;
   }
+}
+.sidebar-container .contact::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: -6px;
+  border-left: 6px solid #d90d79;
 }
 .hidden {
   margin-left: 0;
