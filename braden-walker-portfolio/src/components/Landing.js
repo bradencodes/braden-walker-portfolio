@@ -9,9 +9,7 @@ class Landing extends Component {
         return (
             <div>
 
-                <div className="scanimations">
-                    <img className="parallax__layer--me" src={me} alt="me" />
-                </div>
+                <img className="parallax__layer--me" src={me} alt="me" />
 
                 <div className="bars-container">
                     <img src={bars} alt="bars45large" className="base" />
