@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Sidebar from "./Sidebar.js";
 import Landing from "./Landing.js";
 
 class Home extends Component {
@@ -7,6 +8,8 @@ class Home extends Component {
         return (
             <div className="home-container">
 
+                <Sidebar />
+                
                 <Landing />
 
                 <div className="rightbar"></div>
