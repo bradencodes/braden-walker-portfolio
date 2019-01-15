@@ -10,7 +10,7 @@ class Landing extends Component {
             <>
 
                 <div className="scanimations">
-                    <img className="parallax__layer--me" src={me} int="about" />
+                    <img className="parallax__layer--me" src={me} alt="me" />
                 </div>
 
                 <div className="bars-container">
