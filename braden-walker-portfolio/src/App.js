@@ -13,7 +13,7 @@ class App extends Component {
 
         <Home />
 
-        <div className="rightbar"></div>
+        {/* <div className="rightbar"></div> */}
 
       </div>
     );
