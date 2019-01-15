@@ -9,6 +9,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,6 +50,7 @@ html {
 }
 .sidebar-container {
   z-index: 100;
+  position: relative;
   -webkit-flex-grow: 0.5;
   flex-grow: 0.5;
   -webkit-transition: all 0.2s ease;
@@ -147,6 +149,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +161,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -100vh;
+  margin-right: -198px;
   width: 198px;
   padding-right: 11px;
   z-index: 1;
@@ -186,6 +190,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,8 +202,10 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -80vh;
+  margin-right: -100px;
   width: 100px;
   z-index: -1;
+  z-index: 1;
 }
 @media (max-width: 600px) {
   .sidebar-container .about {
@@ -218,6 +225,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,6 +237,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -70vh;
+  margin-right: -140px;
   width: 140px;
   z-index: -2;
 }
@@ -250,6 +259,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,6 +271,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -60vh;
+  margin-right: -131px;
   width: 131px;
   z-index: -3;
 }
@@ -282,6 +293,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,6 +305,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -50vh;
+  margin-right: -118px;
   width: 118px;
   z-index: -4;
 }
@@ -314,6 +327,7 @@ html {
   height: 50px;
   margin-left: 180px;
   position: absolute;
+  right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -325,6 +339,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   margin-top: -40vh;
+  margin-right: -125px;
   width: 125px;
   z-index: -5;
 }
