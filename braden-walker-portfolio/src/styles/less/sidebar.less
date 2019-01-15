@@ -72,8 +72,15 @@
 
         margin-top: 0;
         width: 200px;
-        padding-left: 150px;
+        padding-right: 11px;
         z-index: 1;
+
+        display: none;
+
+        @media @desktop {
+            display: flex;
+            justify-content: flex-end;
+        }
 
         .arrow-left {
             height: 30px;
@@ -148,5 +155,9 @@
 }
 
 .hidden {
-    margin-left: -325px;
+    margin-left: 0;
+
+    @media @desktop {
+        margin-left: -325px;
+    }
 }

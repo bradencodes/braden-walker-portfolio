@@ -101,8 +101,15 @@ html {
   border-bottom-right-radius: 2px;
   margin-top: 0;
   width: 200px;
-  padding-left: 150px;
+  padding-right: 11px;
   z-index: 1;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .sidebar-container .toggle-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 .sidebar-container .toggle-nav .arrow-left {
   height: 30px;
@@ -212,7 +219,12 @@ html {
   padding-left: 6px;
 }
 .hidden {
-  margin-left: -325px;
+  margin-left: 0;
+}
+@media (max-width: 1200px) {
+  .hidden {
+    margin-left: -325px;
+  }
 }
 .home-container {
   perspective: 1px;
