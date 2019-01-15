@@ -396,9 +396,19 @@ html {
   perspective: 1px;
   height: 100vh;
   width: 100%;
-  padding-left: 315px;
+  padding-left: 320px;
   overflow-x: hidden;
   overflow-y: auto;
+}
+@media (min-width: 1800px) {
+  .home-container {
+    padding-left: 15%;
+  }
+}
+@media (max-width: 1200px) {
+  .home-container {
+    padding-left: 0px;
+  }
 }
 .scanimations {
   position: relative;
@@ -414,7 +424,7 @@ html {
 .bars-container {
   height: 300px;
   overflow: hidden;
-  margin-left: -315px;
+  margin-left: -145px;
   margin-top: -300px;
 }
 .bars-container .base {
