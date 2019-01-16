@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import bars from '../resources/scanimation/bars45large.png';
 import cyanBars from '../resources/scanimation/cyanBars.png';
 import about from '../resources/scanimation/about45.png';
-import arrow from '../resources/icons/down-arrow.png';
+import me_square from '../resources/icons/me-square.png';
 
 class About extends Component {
     render() {
@@ -36,6 +36,36 @@ class About extends Component {
 
                 </div>
                 
+                <div className="about-content-container">
+
+                    <div className="about-content-cutout">
+
+                        <img src={me_square} alt="braden" />
+
+                        <div className="about-and-skills">
+                            <div className="about-me">
+                                Hello, I'm <b>Braden Walker</b>. I'm a <b>full-stack web developer</b> who specializes 
+                                in <span>responsive design</span> and <span>single page applications</span>.
+
+                                I like to push myself by constantly creating new projects and learning new skills!
+                            </div>
+
+                            <div className="skills-container">
+                                <div className="skill">JavaScript</div>
+                                <div className="skill">React</div>
+                                <div className="skill">Redux</div>
+                                <div className="skill">HTML5</div>
+                                <div className="skill">CSS/LESS</div>
+                                <div className="skill">SQL/noSQL</div>
+                                <div className="skill">Python</div>
+                                <div className="skill">C</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
         );
     }
