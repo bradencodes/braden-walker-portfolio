@@ -399,13 +399,13 @@ html {
 }
 @media (max-width: 900px) {
   .landing-container .bars-container {
-    margin-left: -3px;
+    margin-left: -12px;
   }
 }
 @media (max-width: 600px) {
   .landing-container .bars-container {
     height: 450px;
-    margin-left: -4px;
+    margin-left: -13px;
   }
 }
 .landing-container .bars-container .base {
