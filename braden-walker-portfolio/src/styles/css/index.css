@@ -537,6 +537,11 @@ html {
   -webkit-transform: translateZ(0px) scale(1);
   transform: translateZ(0px) scale(1);
 }
+@media (max-width: 1200px) {
+  .about-container .about-banner .bars-container-1 {
+    margin-left: -160px;
+  }
+}
 .about-container .about-banner .cyan-bars-container {
   height: 130px;
   min-width: 294px;
@@ -562,6 +567,11 @@ html {
   position: absolute;
   z-index: -1;
 }
+@media (max-width: 1200px) {
+  .about-container .about-banner .parallax__layer--scanimation {
+    margin-left: 0px;
+  }
+}
 .about-container .about-banner .about-sticker {
   -webkit-transform: translateZ(0.02px) scale(0.98);
   transform: translateZ(0.02px) scale(0.98);
@@ -575,7 +585,12 @@ html {
   background: #ffffff;
   overflow: hidden;
   position: absolute;
-  margin: 2px 0 0 386px;
+  margin: 2px 0 0 390px;
+}
+@media (max-width: 1200px) {
+  .about-container .about-banner .about-sticker {
+    margin-left: 225px;
+  }
 }
 .about-container .about-banner .about-sticker .parallax-layer--front {
   text-align: center;

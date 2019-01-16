@@ -16,6 +16,10 @@
                 -webkit-transform: translateZ(0px) scale(1);
                 transform: translateZ(0px) scale(1);
             }
+
+            @media @desktop {
+                margin-left: -160px;
+            }
         }
 
         .cyan-bars-container {
@@ -43,10 +47,13 @@
         .parallax__layer--scanimation {
             -webkit-transform: translateZ(-.07px) scale(1.07);
             transform: translateZ(-.07px) scale(1.07);
-    
             margin: -20px 0 0 150px;
             position: absolute;
             z-index: -1;
+
+            @media @desktop {
+                margin-left: 0px; 
+            }
         }
         
         .about-sticker {
@@ -63,7 +70,11 @@
             overflow: hidden;
             position: absolute; //keeps coutout above bars
         
-            margin: 2px 0 0 386px;
+            margin: 2px 0 0 390px;
+
+            @media @desktop {
+                margin-left: 225px;
+            }
         
             .parallax-layer--front {
                 text-align: center;
