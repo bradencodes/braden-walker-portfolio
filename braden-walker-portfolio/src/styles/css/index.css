@@ -711,9 +711,18 @@ html {
     padding: 20px;
   }
 }
+@media (max-width: 600px) {
+  .about-container .about-content-container .about-content-cutout {
+    margin: 50px 20px 0;
+    padding: 20px;
+    flex-flow: column;
+    align-items: center;
+  }
+}
 .about-container .about-content-container .about-content-cutout img {
   -webkit-transform: translateZ(0px) scale(1);
   transform: translateZ(0px) scale(1);
+  z-index: 1;
   width: 250px;
   height: 250px;
   border-radius: 2px;
@@ -731,6 +740,11 @@ html {
   justify-content: space-between;
   margin-left: 20px;
 }
+@media (max-width: 600px) {
+  .about-container .about-content-container .about-content-cutout .about-and-skills {
+    margin: 0;
+  }
+}
 .about-container .about-content-container .about-content-cutout .about-and-skills .about-me {
   -webkit-transform: translateZ(-0.08px) scale(1.08);
   transform: translateZ(-0.08px) scale(1.08);
@@ -741,6 +755,12 @@ html {
   .about-container .about-content-container .about-content-cutout .about-and-skills .about-me {
     font-size: 1.5rem;
     margin: -10px 10px 0;
+  }
+}
+@media (max-width: 600px) {
+  .about-container .about-content-container .about-content-cutout .about-and-skills .about-me {
+    font-size: 1.3rem;
+    margin: 20px 0px 10px;
   }
 }
 .about-container .about-content-container .about-content-cutout .about-and-skills .about-me span {

@@ -170,8 +170,16 @@
                 padding: 20px;
             }
 
+            @media @phone {
+                margin: 50px 20px 0;
+                padding: 20px;
+                flex-flow: column;
+                align-items: center;
+            }
+
             img {
                 #craft > .middle-layer;
+                z-index: 1;
                 width: 250px;
                 height: 250px;
                 border-radius: @paper-radius;
@@ -189,6 +197,10 @@
                 justify-content: space-between;
                 margin-left: 20px;
 
+                @media @phone {
+                    margin: 0;
+                }
+
                 .about-me {
                     #craft > .lower-layer;
                     font-size: 2.0rem;
@@ -197,6 +209,11 @@
                     @media @tablet {
                         font-size: 1.5rem;
                         margin: -10px 10px 0;
+                    }
+
+                    @media @phone {
+                        font-size: 1.3rem;
+                        margin: 20px 0px 10px;
                     }
 
                     span {
