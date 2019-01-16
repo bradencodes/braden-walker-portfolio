@@ -967,19 +967,18 @@ html {
 }
 .projects-container .projects-content-container {
   width: 100%;
-  justify-content: center;
   display: flex;
+  flex-flow: column;
 }
 .projects-container .projects-content-container .project-cutout {
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   height: 300px;
   display: flex;
-  margin: 80px;
+  margin: 80px 80px 0 200px;
   padding: 40px;
   overflow: hidden;
   position: relative;
-  margin-left: 200px;
 }
 @media (max-width: 1200px) {
   .projects-container .projects-content-container .project-cutout {
@@ -1015,7 +1014,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 0px 0 80px;
+  margin: 10px 0 10px 80px;
 }
 .projects-container .projects-content-container .project-cutout .text .title {
   font-size: 2rem;
@@ -1058,6 +1057,7 @@ html {
   border-bottom: solid 3px #d90d79;
   width: 100%;
   display: flex;
+  align-items: center;
 }
 .projects-container .projects-content-container .project-cutout .links .link .link-text img {
   z-index: 1;

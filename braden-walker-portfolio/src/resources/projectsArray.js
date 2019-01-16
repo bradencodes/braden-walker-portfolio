@@ -10,4 +10,14 @@ export const projectsArray = [
         "github": "https://github.com/Lambda-School-Labs/Labs8-Cookbook",
         "visit": "https://www.your-cookbook.us",
     },
+
+    {
+        "id": 1,
+        "title": "Braden Walker's Portfolio",
+        "description": "My personal portfolio site. All of those animations you see are actually static images with slices of keyframes hidden behind bars. Check out my blog post to learn more.",
+        "image": cookbook,
+        "tools": ["React", "LESS"],
+        "github": "https://github.com/Bradiowave/braden-walker-portfolio",
+        "visit": "",
+    },
 ]
