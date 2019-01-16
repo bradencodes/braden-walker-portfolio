@@ -7,13 +7,15 @@ import arrow from '../resources/icons/down-arrow.png';
 class Landing extends Component {
     render() {
         return (
-            <div>
-
-                <img className="parallax__layer--me" src={me} alt="me" />
+            <div className="landing-container">
 
                 <div className="bars-container">
-                    <img src={bars} alt="bars45large" className="base" />
+
+                    <img className="base" src={bars} alt="bars45large" />
+
                 </div>
+
+                <img className="parallax__layer--me" src={me} alt="me" />
 
                 <div className="landing-cutout">
 
@@ -29,8 +31,6 @@ class Landing extends Component {
                     </div>
 
                 </div>
-
-                <div className="whitespace" />
                 
             </div>
         );
