@@ -32,3 +32,30 @@
         left: -6px;
     }
 }
+
+#craft {
+    .cutout {
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .5);
+        border-radius: @paper-radius;
+    }
+
+    .sticker {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+        border-radius: @paper-radius;
+    }
+
+    .top-layer {
+        -webkit-transform: translateZ(.02px) scale(.98);
+        transform: translateZ(.02px) scale(.98);
+    }
+
+    .middle-layer {
+        -webkit-transform: translateZ(0px) scale(1);
+        transform: translateZ(0px) scale(1);
+    }
+
+    .lower-layer {
+        -webkit-transform: translateZ(-.08px) scale(1.08);
+        transform: translateZ(-.08px) scale(1.08);
+    }
+}

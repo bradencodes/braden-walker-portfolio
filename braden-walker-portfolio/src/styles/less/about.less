@@ -158,10 +158,49 @@
             padding: 40px;
             box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .5);
             border-radius: @paper-radius;
+            overflow: hidden;
 
             img {
-                height: 400px;
+                #craft > .middle-layer;
+                width: 250px;
+                height: 250px;
                 border-radius: @paper-radius;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+            }
+
+            .about-and-skills {
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                margin-left: 20px;
+
+                .about-me {
+                    #craft > .lower-layer;
+                    font-size: 2.0rem;
+                    margin: -10px 0 0 30px;
+
+                    span {
+                        font-weight: bold;
+                        color: @cyan;
+                    }
+                }
+
+                .skills-container {
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-evenly;
+
+                    .skill {
+                        #craft > .middle-layer;
+                        #craft > .sticker;
+                        background: @white;
+                        margin: 9px;
+                        padding: 10px;
+                        color: @cyan;
+                        font-weight: bold;
+                        font-size: 1.6rem;
+                    }
+                }
             }
 
         }

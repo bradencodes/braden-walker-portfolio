@@ -33,8 +33,7 @@
         .base {
             margin: -100px 0 0 -200px;
             
-            -webkit-transform: translateZ(0px) scale(1);
-            transform: translateZ(0px) scale(1);
+            #craft > .middle-layer;
 
             @media @desktop {
                 -webkit-transform: translateZ(0px) scale(0.8);
@@ -104,8 +103,7 @@
         }
     
         .parallax-layer--back {
-            -webkit-transform: translateZ(-.08px) scale(1.08);
-            transform: translateZ(-.08px) scale(1.08);
+            #craft > .lower-layer;
             text-align: center;
     
             .name {
@@ -131,8 +129,7 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            -webkit-transform: translateZ(0px) scale(1);
-            transform: translateZ(0px) scale(1); //keeps tab above the cutout
+            #craft > .middle-layer; //keeps tab above the cutout
     
             .tab {
                 border-top-left-radius: @paper-radius;
