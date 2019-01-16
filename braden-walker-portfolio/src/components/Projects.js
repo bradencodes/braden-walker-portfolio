@@ -4,6 +4,7 @@ import bars from '../resources/scanimation/bars45large.png';
 import magentaBars from '../resources/scanimation/magentaBars.png';
 import projects_scanimation from '../resources/scanimation/projects45.png';
 import { projectsArray } from '../resources/projectsArray.js';
+import arrow from '../resources/icons/down-arrow.png';
 
 class Projects extends Component {
     render() {
@@ -65,8 +66,13 @@ class Projects extends Component {
                             </div>
 
                             <div className="links">
-                                <a className="github" href={project.github}>github</a>
-                                <a className="visit" href={project.visit}>visit</a>
+                                <a className="link" href={project.github}>
+                                    <div className="link-text">github</div>
+                                </a>
+
+                                <a className="link" href={project.visit}>
+                                    <div className="link-text" >visit<img src={arrow} /></div>
+                                </a>
                             </div>
 
                         </div>

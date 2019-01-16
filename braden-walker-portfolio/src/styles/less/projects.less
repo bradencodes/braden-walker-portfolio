@@ -162,6 +162,7 @@
             margin: 80px;
             padding: 40px;
             overflow: hidden;
+            position: relative;
             
             margin-left: 200px;
 
@@ -193,7 +194,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                margin: 0 -50px 0 80px;
+                margin: 0 0px 0 80px;
 
                 .title {
                     font-size: 2.0rem;
@@ -208,6 +209,44 @@
                 .tools {
                     font-style: italic;
                     font-size: 1.2rem;
+                }
+            }
+
+            .links {
+                #craft > .middle-layer;
+                position: absolute;
+                top: 0px;
+                right: 20px;
+                display: flex;
+
+                .link {
+                    #craft > .sticker;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 20px 10px 10px;
+                    margin-right: 20px;
+                    width: 100%;
+                    display: flex;
+                    text-decoration: none;
+
+                    .link-text {
+                        z-index: 1;
+                        text-align: center;
+                        color: @black;
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                        border-bottom: solid 3px @magenta;
+                        width: 100%;
+                        display: flex;
+
+                        img {
+                            z-index: 1;
+                            height: 10px;
+                            transform: rotate(-90deg);
+                            margin-left: 5px;
+                        }
+                    }
+
                 }
             }
         }
