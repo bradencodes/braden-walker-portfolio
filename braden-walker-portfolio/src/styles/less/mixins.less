@@ -47,6 +47,7 @@
     .top-layer {
         -webkit-transform: translateZ(.02px) scale(.98);
         transform: translateZ(.02px) scale(.98);
+        z-index: 1;
     }
 
     .middle-layer {
@@ -57,5 +58,6 @@
     .lower-layer {
         -webkit-transform: translateZ(-.08px) scale(1.08);
         transform: translateZ(-.08px) scale(1.08);
+        z-index: -1;
     }
 }

@@ -156,11 +156,11 @@
         display: flex;
 
         .about-content-cutout {
+            #craft > .cutout;
             display: flex;
+            height: 300px;
             margin: 80px;
             padding: 40px;
-            box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .5);
-            border-radius: @paper-radius;
             overflow: hidden;
             
             margin-left: 200px;
@@ -170,11 +170,14 @@
             }
 
             @media @tablet {
+                height: 200px;
                 margin: 50px 20px 0;
                 padding: 20px;
             }
 
             @media @phone {
+                height: auto;
+                width: 350px;
                 margin: 50px 20px 0;
                 padding: 20px;
                 flex-flow: column;
@@ -184,14 +187,21 @@
             img {
                 #craft > .middle-layer;
                 z-index: 1;
-                width: 250px;
-                height: 250px;
+                width: auto;
+                max-width: 219px;
+                height: 100%;
                 border-radius: @paper-radius;
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 
                 @media @tablet {
-                    width: 200px;
-                    height: 200px;
+                    width: auto;
+                    max-width: 219px;
+                }
+
+                @media @phone {
+                    width: 100%;
+                    height: auto;
+                    max-height: 219px;
                 }
             }
 
@@ -207,7 +217,7 @@
 
                 .about-me {
                     #craft > .lower-layer;
-                    font-size: 2.0rem;
+                    font-size: 1.8rem;
                     margin: -10px 0 0 30px;
 
                     @media @tablet {
