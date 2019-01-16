@@ -48,6 +48,6 @@ export const projectsArray = [
         "image": cookbook,
         "tools": ["React", "LESS"],
         "github": "https://github.com/Bradiowave/braden-walker-portfolio",
-        "visit": "",
+        "visit": "javascript:;",
     },
 ]

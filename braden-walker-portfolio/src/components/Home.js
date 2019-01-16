@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Landing from "./Landing.js";
 import About from "./About.js";
 import Projects from "./Projects.js";
+import Articles from "./Articles.js";
 
 class Home extends Component {
     render() {
@@ -14,6 +15,8 @@ class Home extends Component {
                 <About />
 
                 <Projects />
+
+                <Articles />
 
                 <Landing />
                 
