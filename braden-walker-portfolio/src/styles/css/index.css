@@ -546,6 +546,12 @@ html {
 }
 .about-container {
   width: 100%;
+  margin-bottom: 200px;
+}
+@media (max-width: 600px) {
+  .about-container {
+    margin-bottom: 100px;
+  }
 }
 .about-container .about-banner {
   width: 100%;

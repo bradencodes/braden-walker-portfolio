@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Landing from "./Landing.js";
 import About from "./About.js";
+import Projects from "./Projects.js";
 
 class Home extends Component {
     render() {
@@ -11,6 +12,8 @@ class Home extends Component {
                 <Landing />
 
                 <About />
+
+                <Projects />
 
                 <Landing />
                 
