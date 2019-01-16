@@ -997,8 +997,9 @@ html {
 }
 @media (max-width: 600px) {
   .projects-container .projects-content-container .project-cutout {
-    margin: 50px 20px 0;
-    padding: 20px;
+    height: auto;
+    margin: 50px 10px 0px;
+    padding: 10px 10px 0px;
     flex-flow: column;
     align-items: center;
   }
@@ -1017,6 +1018,14 @@ html {
     height: 149px;
   }
 }
+@media (max-width: 600px) {
+  .projects-container .projects-content-container .project-cutout .project-image {
+    width: 80%;
+    max-width: 230px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
 .projects-container .projects-content-container .project-cutout .text {
   -webkit-transform: translateZ(-0.08px) scale(1.08);
   transform: translateZ(-0.08px) scale(1.08);
@@ -1030,7 +1039,13 @@ html {
 }
 @media (max-width: 900px) {
   .projects-container .projects-content-container .project-cutout .text {
-    margin-right: 5px;
+    margin-right: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .projects-container .projects-content-container .project-cutout .text {
+    width: 90%;
+    margin: 20px;
   }
 }
 .projects-container .projects-content-container .project-cutout .text .title {
@@ -1040,6 +1055,11 @@ html {
 @media (max-width: 900px) {
   .projects-container .projects-content-container .project-cutout .text .title {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .projects-container .projects-content-container .project-cutout .text .title {
+    margin-top: 10px;
   }
 }
 .projects-container .projects-content-container .project-cutout .text .description {
@@ -1058,6 +1078,11 @@ html {
 @media (max-width: 900px) {
   .projects-container .projects-content-container .project-cutout .text .tools {
     font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .projects-container .projects-content-container .project-cutout .text .tools {
+    margin-top: 30px;
   }
 }
 .projects-container .projects-content-container .project-cutout .links {

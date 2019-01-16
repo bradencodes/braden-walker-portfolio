@@ -178,8 +178,9 @@
             }
 
             @media @phone {
-                margin: 50px 20px 0;
-                padding: 20px;
+                height: auto;
+                margin: 50px 10px 0px;
+                padding: 10px 10px 0px;
                 flex-flow: column;
                 align-items: center;
             }
@@ -194,6 +195,13 @@
                     max-width: 230px;
                     height: 149px;
                 }
+
+                @media @phone {
+                    width: 80%;
+                    max-width: 230px;
+                    height: auto;
+                    margin-top: 10px;
+                }
             }
 
             .text {
@@ -206,7 +214,12 @@
                 margin: 10px 0 10px 80px;
 
                 @media @tablet {
-                    margin-right: 5px;
+                    margin-right: 6px;
+                }
+
+                @media @phone {
+                    width: 90%;
+                    margin: 20px;
                 }
 
                 .title {
@@ -215,6 +228,10 @@
 
                     @media @tablet {
                         font-size: 1.6rem;
+                    }
+
+                    @media @phone {
+                        margin-top: 10px;
                     }
                 }
 
@@ -233,6 +250,10 @@
 
                     @media @tablet {
                         font-size: 1.0rem;
+                    }
+
+                    @media @phone {
+                        margin-top: 30px;
                     }
                 }
 
