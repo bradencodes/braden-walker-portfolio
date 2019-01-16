@@ -359,30 +359,6 @@ html {
     align-items: flex-start;
   }
 }
-.landing-container .parallax__layer--me {
-  -webkit-transform: translateZ(-0.01px) scale(1.01);
-  transform: translateZ(-0.01px) scale(1.01);
-  margin-left: 150px;
-  position: absolute;
-  z-index: -1;
-}
-@media (max-width: 1200px) {
-  .landing-container .parallax__layer--me {
-    -webkit-transform: translateZ(-0.008px) scale(0.808);
-    transform: translateZ(-0.008px) scale(0.808);
-    margin-left: 50px;
-  }
-}
-@media (max-width: 900px) {
-  .landing-container .parallax__layer--me {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 600px) {
-  .landing-container .parallax__layer--me {
-    margin: -100px 0 0 30px;
-  }
-}
 .landing-container .bars-container {
   height: 300px;
   min-width: 1600px;
@@ -420,6 +396,30 @@ html {
 @media (max-width: 900px) {
   .landing-container .bars-container .base {
     margin: -70px 0 0 -200px;
+  }
+}
+.landing-container .parallax__layer--me {
+  -webkit-transform: translateZ(-0.01px) scale(1.01);
+  transform: translateZ(-0.01px) scale(1.01);
+  margin-left: 150px;
+  position: absolute;
+  z-index: -1;
+}
+@media (max-width: 1200px) {
+  .landing-container .parallax__layer--me {
+    -webkit-transform: translateZ(-0.008px) scale(0.808);
+    transform: translateZ(-0.008px) scale(0.808);
+    margin-left: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .landing-container .parallax__layer--me {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .landing-container .parallax__layer--me {
+    margin: -100px 0 0 30px;
   }
 }
 .landing-container .landing-cutout {
@@ -520,4 +520,67 @@ html {
 }
 .landing-container .landing-cutout .learn-more .tab .text img {
   height: 20px;
+}
+.about-container .about-banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about-container .about-banner .bars-container-1 {
+  height: 130px;
+  min-width: 328px;
+  max-width: 328px;
+  overflow: hidden;
+}
+.about-container .about-banner .bars-container-1 .base {
+  -webkit-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
+}
+.about-container .about-banner .cyan-bars-container {
+  height: 130px;
+  min-width: 294px;
+  max-width: 294px;
+  overflow: hidden;
+}
+.about-container .about-banner .cyan-bars-container .base {
+  -webkit-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
+}
+.about-container .about-banner .bars-container-2 {
+  height: 130px;
+  overflow: hidden;
+}
+.about-container .about-banner .bars-container-2 .base {
+  -webkit-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
+}
+.about-container .about-banner .parallax__layer--scanimation {
+  -webkit-transform: translateZ(-0.07px) scale(1.07);
+  transform: translateZ(-0.07px) scale(1.07);
+  margin: -20px 0 0 150px;
+  position: absolute;
+  z-index: -1;
+}
+.about-container .about-banner .about-sticker {
+  -webkit-transform: translateZ(0.02px) scale(0.98);
+  transform: translateZ(0.02px) scale(0.98);
+  border-radius: 2px;
+  padding: 5px;
+  width: 180px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background: #ffffff;
+  overflow: hidden;
+  position: absolute;
+  margin: 2px 0 0 386px;
+}
+.about-container .about-banner .about-sticker .parallax-layer--front {
+  text-align: center;
+}
+.about-container .about-banner .about-sticker .parallax-layer--front .name {
+  font-family: 'Staatliches', cursive;
+  font-size: 60px;
 }
