@@ -43,7 +43,7 @@ class Projects extends Component {
 
                         <div key={project.id} className="project-cutout">
 
-                            <img src={project.image} alt={project.title} />
+                            <img className="project-image" src={project.image} alt={project.title} />
 
                             <div className="text">
 
@@ -56,9 +56,9 @@ class Projects extends Component {
                                 <div className="tools">
                                     {project.tools.map((tool, index) => {
                                         if (index === 0 && project.tools.length === 1) return (<span>made with <b>{tool}</b></span>);
-                                        else if (index === 0) return (<span>made with <b>{tool}</b>, </span>);
+                                        else if (index === 0) return (<span>made with <b>{tool}, </b></span>);
                                         else if (index === project.tools.length-1) return (<span><b>{tool}</b></span>);
-                                        else return (<span><b>{tool}</b>, </span>)
+                                        else return (<span><b>{tool}, </b></span>)
                                     })}
                                 </div>
 
@@ -71,7 +71,7 @@ class Projects extends Component {
                                 </a>
 
                                 <a className="link" href={project.visit}>
-                                    <div className="link-text" >visit<img src={arrow} /></div>
+                                    <div className="link-text" >visit<img src={arrow} alt={arrow}/></div>
                                 </a>
                             </div>
 
