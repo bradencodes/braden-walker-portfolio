@@ -8,6 +8,8 @@ class Home extends Component {
             <div className="home-container">
 
                 <Landing />
+
+                <Landing />
                 
             </div>
         );

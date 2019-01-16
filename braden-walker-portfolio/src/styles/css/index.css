@@ -335,8 +335,6 @@ html {
 .home-container {
   max-width: 1600px;
   height: 100vh;
-  display: flex;
-  flex-flow: column;
 }
 @media (max-width: 1200px) {
   .home-container {
