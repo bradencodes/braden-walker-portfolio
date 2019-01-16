@@ -66,13 +66,21 @@ class Projects extends Component {
                             </div>
 
                             <div className="links">
+
+                                {project.github
+                                &&
                                 <a className="link" href={project.github}>
                                     <div className="link-text">github</div>
                                 </a>
+                                }
 
+                                {project.visit
+                                &&
                                 <a className="link" href={project.visit}>
                                     <div className="link-text" >visit<img src={arrow} alt={arrow}/></div>
                                 </a>
+                                }
+                                
                             </div>
 
                         </div>
