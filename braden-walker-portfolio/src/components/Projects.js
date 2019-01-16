@@ -45,16 +45,23 @@ class Projects extends Component {
                             <img src={project.image} alt={project.title} />
 
                             <div className="text">
-                                <div className="title">{project.title}</div>
 
-                                <div className="description">{project.description}</div>
+                                <div>
+                                    <div className="title">{project.title}</div>
 
-                                {project.tools.map((tool, index) => {
-                                    if (index === 0 && project.tools.length === 1) return (<div>made with <b>{tool}</b></div>);
-                                    else if (index === 0) return (<div>made with <b>{tool}</b>, </div>);
-                                    else if (index === project.tools.length-1) return (<div><b>{tool}</b></div>);
-                                    else return (<div><b>{tool}</b>, </div>)
-                                })}
+                                    <div className="description">{project.description}</div>
+                                </div>
+
+                                <div className="tools">
+                                    {project.tools.map((tool, index) => {
+                                        if (index === 0 && project.tools.length === 1) return (<span>made with <b>{tool}</b></span>);
+                                        else if (index === 0) return (<span>made with <b>{tool}</b>, </span>);
+                                        else if (index === project.tools.length-1) return (<span><b>{tool}</b></span>);
+                                        else return (<span><b>{tool}</b>, </span>)
+                                    })}
+                                </div>
+
+                                
                             </div>
 
                             <div className="links">
@@ -63,7 +70,7 @@ class Projects extends Component {
                             </div>
 
                         </div>
-                        
+
                     ))}
 
                 </div>

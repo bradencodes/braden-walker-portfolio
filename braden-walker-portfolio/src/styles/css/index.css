@@ -1006,6 +1006,24 @@ html {
   z-index: -1;
 }
 .projects-container .projects-content-container .project-cutout .text {
+  -webkit-transform: translateZ(-0.08px) scale(1.08);
+  transform: translateZ(-0.08px) scale(1.08);
+  z-index: -1;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 0 -50px 0 80px;
+}
+.projects-container .projects-content-container .project-cutout .text .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.projects-container .projects-content-container .project-cutout .text .description {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+.projects-container .projects-content-container .project-cutout .text .tools {
+  font-style: italic;
+  font-size: 1.2rem;
 }
