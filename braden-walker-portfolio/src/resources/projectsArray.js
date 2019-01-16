@@ -13,6 +13,36 @@ export const projectsArray = [
 
     {
         "id": 1,
+        "title": "Note Taker",
+        "description": "A note taking app that lets you create, view, edit, and delete notes. Special Features include user accounts, markdown, support, searching, and sorting notes.",
+        "image": cookbook,
+        "tools": ["React", "Express", "MongoDB"],
+        "github": "https://github.com/Bradiowave/back-end-project-week",
+        "visit": "https://note-taker.netlify.com/",
+    },
+
+    {
+        "id": 2,
+        "title": "Graph Mona Lisa",
+        "description": "This program creates a graph with random vertices. The position of each vertex determines its color, which match da Vinci's famous painting, the \"Mona Lisa\".",
+        "image": cookbook,
+        "tools": ["Python"],
+        "github": "https://github.com/Bradiowave/Sprint-Challenge--Graphs/tree/master/graph_shortest_path",
+        "visit": null,
+    },
+
+    {
+        "id": 3,
+        "title": "Star Wars API Viewer",
+        "description": "A fun little website that connects to the star wars API (SWAPI) and displays info in a fitting fashion.",
+        "image": cookbook,
+        "tools": ["JavaScript"],
+        "github": "https://github.com/Bradiowave/Sprint-Challenge---React",
+        "visit": null,
+    },
+
+    {
+        "id": 4,
         "title": "Braden Walker's Portfolio",
         "description": "My personal portfolio site. All of those animations you see are actually static images with slices of keyframes hidden behind bars. Check out my blog post to learn more.",
         "image": cookbook,
