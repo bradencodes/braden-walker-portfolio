@@ -154,11 +154,21 @@
         .about-content-cutout {
             display: flex;
             margin: 80px;
-            margin-left: 200px;
             padding: 40px;
             box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .5);
             border-radius: @paper-radius;
             overflow: hidden;
+            
+            margin-left: 200px;
+
+            @media @desktop {
+                margin-left: 80px;
+            }
+
+            @media @tablet {
+                margin: 50px 20px 0;
+                padding: 20px;
+            }
 
             img {
                 #craft > .middle-layer;
@@ -166,6 +176,11 @@
                 height: 250px;
                 border-radius: @paper-radius;
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+                @media @tablet {
+                    width: 200px;
+                    height: 200px;
+                }
             }
 
             .about-and-skills {
@@ -178,6 +193,11 @@
                     #craft > .lower-layer;
                     font-size: 2.0rem;
                     margin: -10px 0 0 30px;
+
+                    @media @tablet {
+                        font-size: 1.5rem;
+                        margin: -10px 10px 0;
+                    }
 
                     span {
                         font-weight: bold;
@@ -199,6 +219,12 @@
                         color: @cyan;
                         font-weight: bold;
                         font-size: 1.6rem;
+
+                        @media @tablet {
+                            font-size: 1.3rem;
+                            margin: 5px;
+                            padding: 7px;
+                        }
                     }
                 }
             }
