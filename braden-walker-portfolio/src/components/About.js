@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import bars from '../resources/scanimation/bars45large.png';
 import cyanBars from '../resources/scanimation/cyanBars.png';
-import about from '../resources/scanimation/about45.png';
+import about_scanimation from '../resources/scanimation/about45.png';
 import me_square from '../resources/icons/me-square.png';
 
 class About extends Component {
@@ -24,7 +24,7 @@ class About extends Component {
                         <img className="base" src={bars} alt="bars45large" />
                     </div>
 
-                    <img className="parallax__layer--scanimation" src={about} alt="about" />
+                    <img className="parallax__layer--scanimation" src={about_scanimation} alt="about_scanimation" />
 
                     <div className="about-sticker">
 
