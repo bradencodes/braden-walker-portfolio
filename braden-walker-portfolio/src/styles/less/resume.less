@@ -160,6 +160,7 @@
             margin: 80px;
             padding: 40px;
             overflow: hidden;
+            position: relative;
             
             margin-left: 200px;
 
@@ -181,9 +182,47 @@
                 align-items: center;
             }
 
-            img {
+            .resume {
                 width: 100%;
                 height: auto;
+            }
+
+            .links {
+                position: absolute;
+                top: 0px;
+                right: 20px;
+                display: flex;
+                z-index: 1;
+
+                .link {
+                    #craft > .sticker;
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 0;
+                    padding: 20px 10px 10px;
+                    width: 100%;
+                    display: flex;
+                    text-decoration: none;
+
+                    .link-text {
+                        z-index: 1;
+                        text-align: center;
+                        color: @black;
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                        border-bottom: solid 3px @cyan;
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            z-index: 1;
+                            height: 10px;
+                            width: auto;
+                            margin-left: 5px;
+                        }
+                    }
+
+                }
             }
 
         }

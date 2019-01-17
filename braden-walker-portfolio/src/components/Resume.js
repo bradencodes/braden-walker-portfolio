@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 import bars from '../resources/scanimation/bars45large.png';
 import cyanBars from '../resources/scanimation/cyanBars.png';
 import resume_scanimation from '../resources/scanimation/resume45.png';
+import arrow from '../resources/icons/down-arrow.png';
 import my_resume from '../resources/contacts/my_resume.png';
+import resume_download from '../resources/contacts/Braden-Walker-Resume.pdf';
 
 class Resume extends Component {
     render() {
@@ -40,7 +42,15 @@ class Resume extends Component {
 
                     <div className="resume-content-cutout">
 
-                        <img src={my_resume} alt='my_resume' />
+                        <img className="resume" src={my_resume} alt="my_resume" />
+
+                        <div className="links">
+                                
+                            <a className="link" href={resume_download} download>
+                                <div className="link-text" >download<img src={arrow} alt={arrow}/></div>
+                            </a>
+                            
+                        </div>
 
                     </div>
 
