@@ -1,4 +1,7 @@
 import cookbook from './project_images/cookbook.png';
+import github from './contacts/github-logo.svg';
+import linkedin from './contacts/linkedin-logo.svg';
+import email from './contacts/email.svg';
 
 export const projectsArray = [
     {
@@ -105,5 +108,34 @@ export const articlesArray = [
         "image": cookbook,
         "date": "December 14, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+]
+
+export const contactsArray = [
+    {
+        "id": 0,
+        "title": "GitHub",
+        "description": "github.com/Bradiowave",
+        "image": github,
+        "link": "https://github.com/Bradiowave",
+        "linkText": "view",
+    },
+
+    {
+        "id": 1,
+        "title": "LinkedIn",
+        "description": "in/the-braden-walker",
+        "image": linkedin,
+        "link": "https://www.linkedin.com/in/the-braden-walker",
+        "linkText": "connect",
+    },
+
+    {
+        "id": 2,
+        "title": "Email",
+        "description": "bradenw37@gmail.com",
+        "image": email,
+        "link": "#",
+        "linkText": "copy to clipboard",
     },
 ]
