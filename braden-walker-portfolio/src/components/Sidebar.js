@@ -33,7 +33,7 @@ class Sidebar extends Component {
 
                 <div className="sidebar">
                 
-                    <div className="my-name">Braden Walker</div>
+                    <a href="#landing-container" className="my-name">Braden Walker</a>
 
                     <div className="quick-contacts">
                     
@@ -53,15 +53,15 @@ class Sidebar extends Component {
                     <img className={this.handleArrowClass()} src={arrow} alt='🔽' />
                 </div>
 
-                <div className="about">about</div>
+                <a href="#about-banner" className="about">about</a>
 
-                <div className="projects">projects</div>
+                <a href="#projects-banner" className="projects">projects</a>
 
-                <div className="articles">articles</div>
+                <a href="#articles-banner" className="articles">articles</a>
 
-                <div className="resume">resume</div>
+                <a href="#resume-banner" className="resume">resume</a>
 
-                <div className="contact">contact</div>
+                <a href="#contact-banner" className="contact">contact</a>
 
             </div>
         );

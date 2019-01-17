@@ -11,7 +11,7 @@ class Projects extends Component {
         return (
             <div className="projects-container">
 
-                <div className="projects-banner">
+                <div id="projects-banner">
 
                     <div className="bars-container-1">
                         <img className="base" src={bars} alt="bars45large" />

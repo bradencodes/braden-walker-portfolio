@@ -10,7 +10,7 @@ class About extends Component {
         return (
             <div className="about-container">
 
-                <div className="about-banner">
+                <div id="about-banner">
 
                     <div className="bars-container-1">
                         <img className="base" src={bars} alt="bars45large" />

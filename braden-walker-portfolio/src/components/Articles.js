@@ -11,7 +11,7 @@ class Articles extends Component {
         return (
             <div className="articles-container">
 
-                <div className="articles-banner">
+                <div id="articles-banner">
 
                     <div className="bars-container-1">
                         <img className="base" src={bars} alt="bars45large" />

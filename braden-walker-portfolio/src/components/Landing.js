@@ -7,7 +7,7 @@ import arrow from '../resources/icons/down-arrow.png';
 class Landing extends Component {
     render() {
         return (
-            <div className="landing-container">
+            <div id="landing-container">
 
                 <div className="bars-container">
 
@@ -25,9 +25,9 @@ class Landing extends Component {
                     </div>
 
                     <div className="learn-more">
-                        <div style={{backgroundImage: `url(${bars})`}} className="tab">
+                        <a href="#about-banner" style={{backgroundImage: `url(${bars})`}} className="tab">
                             <div className="text">learn more <img src={arrow} alt='🔽' /> </div>
-                        </div>
+                        </a>
                     </div>
 
                 </div>

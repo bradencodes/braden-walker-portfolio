@@ -17,8 +17,6 @@ class Home extends Component {
                 <Projects />
 
                 <Articles />
-
-                <Landing />
                 
             </div>
         );
