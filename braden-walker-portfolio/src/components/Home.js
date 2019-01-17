@@ -4,6 +4,7 @@ import Landing from "./Landing.js";
 import About from "./About.js";
 import Projects from "./Projects.js";
 import Articles from "./Articles.js";
+import Resume from "./Resume.js";
 
 class Home extends Component {
     render() {
@@ -17,6 +18,8 @@ class Home extends Component {
                 <Projects />
 
                 <Articles />
+
+                <Resume />
                 
             </div>
         );
