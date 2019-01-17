@@ -43,7 +43,7 @@ class Articles extends Component {
 
                         <div key={project.id} className="article-sticker">
 
-                            <img className="article-image" src={project.image} alt={project.title} />
+                            <div className="article-image" style={{backgroundImage: `url(${project.image})`}} />
 
                             <div className="text">
 
