@@ -1505,7 +1505,7 @@ html {
     transform: translateZ(-0.056px) scale(0.856);
   }
 }
-#resume-container #resume-banner .about-sticker {
+#resume-container #resume-banner .resume-sticker {
   -webkit-transform: translateZ(0.02px) scale(0.98);
   transform: translateZ(0.02px) scale(0.98);
   z-index: 1;
@@ -1524,58 +1524,55 @@ html {
   margin-left: 390px;
 }
 @media (max-width: 1200px) {
-  #resume-container #resume-banner .about-sticker {
+  #resume-container #resume-banner .resume-sticker {
     margin-left: 225px;
   }
 }
 @media (max-width: 600px) {
-  #resume-container #resume-banner .about-sticker {
+  #resume-container #resume-banner .resume-sticker {
     width: 130px;
     height: 60px;
     margin-left: 150px;
   }
 }
-#resume-container #resume-banner .about-sticker .parallax-layer--front {
+#resume-container #resume-banner .resume-sticker .parallax-layer--front {
   text-align: center;
 }
-#resume-container #resume-banner .about-sticker .parallax-layer--front .name {
+#resume-container #resume-banner .resume-sticker .parallax-layer--front .name {
   font-family: 'Staatliches', cursive;
   font-size: 60px;
 }
 @media (max-width: 600px) {
-  #resume-container #resume-banner .about-sticker .parallax-layer--front .name {
+  #resume-container #resume-banner .resume-sticker .parallax-layer--front .name {
     font-size: 40px;
   }
 }
-#resume-container .about-content-container {
+#resume-container .resume-content-container {
   width: 100%;
   justify-content: center;
   display: flex;
 }
-#resume-container .about-content-container .about-content-cutout {
+#resume-container .resume-content-container .resume-content-cutout {
   box-shadow: inset 5px 5px 8px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  display: flex;
-  height: 300px;
   margin: 80px;
   padding: 40px;
   overflow: hidden;
   margin-left: 200px;
 }
 @media (max-width: 1200px) {
-  #resume-container .about-content-container .about-content-cutout {
+  #resume-container .resume-content-container .resume-content-cutout {
     margin-left: 80px;
   }
 }
 @media (max-width: 900px) {
-  #resume-container .about-content-container .about-content-cutout {
-    height: 200px;
+  #resume-container .resume-content-container .resume-content-cutout {
     margin: 50px 20px 0;
     padding: 20px;
   }
 }
 @media (max-width: 600px) {
-  #resume-container .about-content-container .about-content-cutout {
+  #resume-container .resume-content-container .resume-content-cutout {
     height: auto;
     width: 350px;
     margin: 50px 20px 0;
@@ -1583,4 +1580,8 @@ html {
     flex-flow: column;
     align-items: center;
   }
+}
+#resume-container .resume-content-container .resume-content-cutout img {
+  width: 100%;
+  height: auto;
 }

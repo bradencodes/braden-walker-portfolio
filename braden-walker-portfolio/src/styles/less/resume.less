@@ -106,7 +106,7 @@
             }
         }
         
-        .about-sticker {
+        .resume-sticker {
             #craft > .top-layer;
             border-radius: @paper-radius;
             padding: 5px;
@@ -150,15 +150,13 @@
     
     }
 
-    .about-content-container {
+    .resume-content-container {
         width: 100%;
         justify-content: center;
         display: flex;
 
-        .about-content-cutout {
+        .resume-content-cutout {
             #craft > .cutout;
-            display: flex;
-            height: 300px;
             margin: 80px;
             padding: 40px;
             overflow: hidden;
@@ -170,7 +168,6 @@
             }
 
             @media @tablet {
-                height: 200px;
                 margin: 50px 20px 0;
                 padding: 20px;
             }
@@ -182,6 +179,11 @@
                 padding: 20px;
                 flex-flow: column;
                 align-items: center;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
             }
 
         }
