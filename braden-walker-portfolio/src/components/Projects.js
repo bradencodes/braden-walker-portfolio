@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import bars from '../resources/scanimation/bars45large.png';
 import magentaBars from '../resources/scanimation/magentaBars.png';
 import projects_scanimation from '../resources/scanimation/projects45.png';
-import { projectsArray } from '../resources/projectsArray.js';
+import { projectsArray } from '../resources/resourceArrays.js';
 import arrow from '../resources/icons/down-arrow.png';
 
 class Projects extends Component {
@@ -80,7 +80,7 @@ class Projects extends Component {
                                     <div className="link-text" >visit<img src={arrow} alt={arrow}/></div>
                                 </a>
                                 }
-                                
+
                             </div>
 
                         </div>

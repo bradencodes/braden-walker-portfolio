@@ -150,139 +150,82 @@
     
     }
 
-    .projects-content-container {
+    .articles-content-container {
         width: 100%;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-items: center;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        padding-left: 160px;
 
-        .project-cutout {
-            #craft > .cutout;
-            height: 300px;
+        @media @desktop {
+            padding-left: 0;
+        }
+
+        .article-sticker {
+            #craft > .sticker;
+            #craft > .top-layer;
+            width: 100%;
+            max-width: 350px;
             display: flex;
-            margin: 80px 80px 0 200px;
-            padding: 40px;
-            overflow: hidden;
+            margin: 80px 20px 0;
             position: relative;
             align-items: center;
-
-            @media @desktop {
-                margin-left: 80px;
-            }
-
-            @media @tablet {
-                margin: 50px 20px 0;
-                padding: 40px 17px;
-                height: 250px;
-            }
+            flex-flow: column;
+            padding: 30px 30px 30px 30px; //keo
 
             @media @phone {
-                height: auto;
                 margin: 50px 10px 0px;
-                padding: 10px 10px 0px;
-                flex-flow: column;
-                align-items: center;
             }
 
-            .project-image {
-                #craft > .lower-layer;
-                height: 100%;
-                width: auto;
-
-                @media @tablet {
-                    min-width: 230px;
-                    max-width: 230px;
-                    height: 149px;
-                }
-
-                @media @phone {
-                    width: 80%;
-                    max-width: 230px;
-                    height: auto;
-                    margin-top: 10px;
-                }
+            .article-image {
+                width: 100%;
+                max-width: 230px;
+                height: auto;
+                margin-top: 10px;
             }
 
             .text {
-                #craft > .lower-layer;
                 width: 100%;
-                height: 100%;
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
-                margin: 10px 0 10px 80px;
-
-                @media @tablet {
-                    margin-right: 6px;
-                }
-
-                @media @phone {
-                    width: 90%;
-                    margin: 20px;
-                }
 
                 .title {
                     font-size: 2.0rem;
                     font-weight: bold;
 
-                    @media @tablet {
-                        font-size: 1.6rem;
-                    }
-
-                    @media @phone {
-                        margin-top: 10px;
-                    }
+                    margin-top: 30px;
                 }
 
                 .description {
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                     margin-top: 15px;
-
-                    @media @tablet {
-                        font-size: 1.3rem;
-                    }
                 }
 
-                .tools {
+                .date {
                     font-style: italic;
                     font-size: 1.2rem;
 
-                    @media @tablet {
-                        font-size: 1.0rem;
-                    }
-
-                    @media @phone {
-                        margin-top: 30px;
-                    }
+                    margin-top: 30px;
+                    
                 }
 
             }
 
             .links {
-                #craft > .middle-layer;
                 position: absolute;
-                top: 0px;
-                right: 20px;
+                bottom: -46px;
+                right: 0px;
                 display: flex;
-
-                @media @tablet {
-                    right: 0;
-                }
+                z-index: -1;
 
                 .link {
                     #craft > .sticker;
-                    border-top-left-radius: 0;
-                    border-top-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 0;
                     padding: 20px 10px 10px;
-                    margin-right: 20px;
                     width: 100%;
                     display: flex;
                     text-decoration: none;
-
-                    @media @tablet {
-                        padding: 10px;
-                    }
 
                     .link-text {
                         z-index: 1;
@@ -290,7 +233,7 @@
                         color: @black;
                         font-size: 1.3rem;
                         font-weight: bold;
-                        border-bottom: solid 3px @magenta;
+                        border-bottom: solid 3px @yellow;
                         width: 100%;
                         display: flex;
                         align-items: center;

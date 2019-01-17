@@ -48,6 +48,62 @@ export const projectsArray = [
         "image": cookbook,
         "tools": ["React", "LESS"],
         "github": "https://github.com/Bradiowave/braden-walker-portfolio",
-        "visit": "javascript:;",
+        "visit": "#",
+    },
+]
+
+export const articlesArray = [
+    {
+        "id": 0,
+        "title": "Lambda Labs Week 5",
+        "description": "A review of Labs polish week.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+
+    {
+        "id": 1,
+        "title": "This Article Has a Really Long Title, and There's Nothing You Can Do To Stop It",
+        "description": "A review of Labs polish week.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+
+    {
+        "id": 2,
+        "title": "Lambda Labs Week 5",
+        "description": "This blog post has a long description. Even longer than the long title. That's because this is a description so it can take up more space.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+
+    {
+        "id": 3,
+        "title": "Lambda Labs Week 5",
+        "description": "A review of Labs polish week.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+
+    {
+        "id": 4,
+        "title": "Lambda Labs Week 5",
+        "description": "A review of Labs polish week.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
+    },
+
+    {
+        "id": 5,
+        "title": "Lambda Labs Week 5",
+        "description": "A review of Labs polish week.",
+        "image": cookbook,
+        "date": "December 14, 2018",
+        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
 ]

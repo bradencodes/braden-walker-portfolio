@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import bars from '../resources/scanimation/bars45large.png';
 import yellowBars from '../resources/scanimation/yellowBars.png';
 import articles_scanimation from '../resources/scanimation/articles45.png';
-import { projectsArray } from '../resources/projectsArray.js';
+import { articlesArray } from '../resources/resourceArrays.js';
 import arrow from '../resources/icons/down-arrow.png';
 
 class Articles extends Component {
@@ -37,13 +37,13 @@ class Articles extends Component {
 
                 </div>
 
-                <div className="projects-content-container">
+                <div className="articles-content-container">
 
-                    {projectsArray.map(project => (
+                    {articlesArray.map(project => (
 
-                        <div key={project.id} className="project-cutout">
+                        <div key={project.id} className="article-sticker">
 
-                            <img className="project-image" src={project.image} alt={project.title} />
+                            <img className="article-image" src={project.image} alt={project.title} />
 
                             <div className="text">
 
@@ -53,33 +53,15 @@ class Articles extends Component {
                                     <div className="description">{project.description}</div>
                                 </div>
 
-                                <div className="tools">
-                                    {project.tools.map((tool, index) => {
-                                        if (index === 0 && project.tools.length === 1) return (<span>made with <b>{tool}</b></span>);
-                                        else if (index === 0) return (<span>made with <b>{tool}, </b></span>);
-                                        else if (index === project.tools.length-1) return (<span><b>{tool}</b></span>);
-                                        else return (<span><b>{tool}, </b></span>)
-                                    })}
-                                </div>
-
+                                <div className="date">{project.date}</div>
                                 
                             </div>
 
                             <div className="links">
-
-                                {project.github
-                                &&
-                                <a className="link" href={project.github}>
-                                    <div className="link-text">github</div>
+                                
+                                <a className="link" href={project.read}>
+                                    <div className="link-text" >read<img src={arrow} alt={arrow}/></div>
                                 </a>
-                                }
-
-                                {project.visit
-                                &&
-                                <a className="link" href={project.visit}>
-                                    <div className="link-text" >visit<img src={arrow} alt={arrow}/></div>
-                                </a>
-                                }
                                 
                             </div>
 
