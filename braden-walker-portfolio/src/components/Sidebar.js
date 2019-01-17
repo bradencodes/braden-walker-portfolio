@@ -38,11 +38,17 @@ class Sidebar extends Component {
 
                     <div className="quick-contacts">
                     
-                        <a href="https://github.com/Bradiowave"><img src={github} alt="github"></img></a>
+                        <a href="https://github.com/Bradiowave">
+                            <img src={github} alt="github"></img>
+                        </a>
 
-                        <a href="https://www.linkedin.com/in/the-braden-walker"><img src={linkedin} alt="linkedin"></img></a>
+                        <a href="https://www.linkedin.com/in/the-braden-walker">
+                            <img src={linkedin} alt="linkedin"></img>
+                        </a>
 
-                        <img src={email} alt="email"></img>
+                        <a href="#">
+                            <img src={email} alt="email"></img>
+                        </a>
 
                     </div>
                 
