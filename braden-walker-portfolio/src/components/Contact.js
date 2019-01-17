@@ -41,17 +41,15 @@ class Contact extends Component {
 
                     {contactsArray.map(contact => (
 
-                        <div key={contact.id} className="contact-sticker">
+                        <a href={contact.link} key={contact.id} className="contact-sticker">
 
                             <img className="contact-image" src={contact.image} alt={contact.title} />
 
                             <div className="text">
 
-                                <div>
-                                    <div className="title">{contact.title}</div>
+                                <div className="title">{contact.title}</div>
 
-                                    <div className="description">{contact.description}</div>
-                                </div>
+                                <div className="description">{contact.description}</div>
                                 
                             </div>
 
@@ -63,7 +61,7 @@ class Contact extends Component {
                                 
                             </div>
 
-                        </div>
+                        </a>
 
                     ))}
 

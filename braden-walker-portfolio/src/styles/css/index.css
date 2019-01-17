@@ -1443,8 +1443,8 @@ html {
 }
 #resume-container #resume-banner .cyan-bars-container {
   height: 130px;
-  min-width: 306px;
-  max-width: 306px;
+  min-width: 317px;
+  max-width: 317px;
   overflow: hidden;
 }
 @media (max-width: 600px) {
@@ -1790,13 +1790,14 @@ html {
   transform: translateZ(0.02px) scale(0.98);
   z-index: 1;
   width: 100%;
-  max-width: 350px;
+  max-width: 300px;
   display: flex;
   margin: 80px 20px 20px;
   position: relative;
   align-items: center;
-  flex-flow: column;
-  padding: 30px 30px 30px 30px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000000;
 }
 @media (max-width: 600px) {
   #contact-container .contacts-content-container .contact-sticker {
@@ -1804,24 +1805,23 @@ html {
   }
 }
 #contact-container .contacts-content-container .contact-sticker .contact-image {
-  width: 100%;
-  max-width: 230px;
-  height: auto;
-  margin-top: 10px;
+  height: 100%;
+  max-height: 50px;
+  width: auto;
 }
 #contact-container .contacts-content-container .contact-sticker .text {
-  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
 }
 #contact-container .contacts-content-container .contact-sticker .text .title {
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 30px;
 }
 #contact-container .contacts-content-container .contact-sticker .text .description {
   font-size: 1.4rem;
-  margin-top: 15px;
 }
 #contact-container .contacts-content-container .contact-sticker .text .date {
   font-style: italic;
@@ -1852,7 +1852,7 @@ html {
   color: #000000;
   font-size: 1.3rem;
   font-weight: bold;
-  border-bottom: solid 3px #ffdd00;
+  border-bottom: solid 3px #d90d79;
   width: 100%;
   display: flex;
   align-items: center;
