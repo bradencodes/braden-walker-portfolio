@@ -99,8 +99,8 @@ html {
 }
 @media (max-width: 600px) {
   .sidebar-container .sidebar {
-    min-width: 101px;
-    width: 101px;
+    min-width: 100px;
+    width: 100px;
   }
 }
 .sidebar-container .sidebar .my-name {
@@ -189,7 +189,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -100vh;
-  margin-right: -198px;
+  margin-right: -197px;
   width: 198px;
   padding-right: 11px;
   z-index: 1;
@@ -226,7 +226,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -80vh;
-  margin-right: -100px;
+  margin-right: -99px;
   width: 100px;
   z-index: -1;
 }
@@ -256,7 +256,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -70vh;
-  margin-right: -140px;
+  margin-right: -139px;
   width: 140px;
   z-index: -2;
 }
@@ -286,7 +286,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -60vh;
-  margin-right: -131px;
+  margin-right: -130px;
   width: 131px;
   z-index: -3;
 }
@@ -316,7 +316,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -50vh;
-  margin-right: -118px;
+  margin-right: -117px;
   width: 118px;
   z-index: -4;
 }
@@ -346,7 +346,7 @@ html {
   text-decoration: none;
   color: #000000;
   margin-top: -40vh;
-  margin-right: -125px;
+  margin-right: -124px;
   width: 125px;
   z-index: -5;
 }

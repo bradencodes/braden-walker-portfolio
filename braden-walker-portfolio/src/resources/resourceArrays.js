@@ -1,5 +1,8 @@
 import cookbook from './project_images/cookbook.png';
+import portfolio from './project_images/portfolio.png';
+
 import article from './article_images/article.jpg';
+
 import github from './contacts/github-logo.svg';
 import linkedin from './contacts/linkedin-logo.svg';
 import email from './contacts/email.svg';
@@ -49,7 +52,7 @@ export const projectsArray = [
         "id": 4,
         "title": "Braden Walker's Portfolio",
         "description": "My personal portfolio site. All of those animations you see are actually static images with slices of keyframes hidden behind bars. Check out my blog post to learn more.",
-        "image": cookbook,
+        "image": portfolio,
         "tools": ["React", "LESS"],
         "github": "https://github.com/Bradiowave/braden-walker-portfolio",
         "visit": "#",
