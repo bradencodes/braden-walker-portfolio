@@ -1303,7 +1303,7 @@ html {
   width: 100%;
   max-width: 350px;
   display: flex;
-  margin: 80px 20px 0;
+  margin: 80px 20px 20px;
   position: relative;
   align-items: center;
   flex-flow: column;
@@ -1311,7 +1311,7 @@ html {
 }
 @media (max-width: 600px) {
   .articles-container .articles-content-container .article-sticker {
-    margin: 50px 10px 0px;
+    margin: 50px 10px 40px;
   }
 }
 .articles-container .articles-content-container .article-sticker .article-image {
@@ -1350,8 +1350,8 @@ html {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
   background: #ffffff;
   border-radius: 2px;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   padding: 20px 10px 10px;
   width: 100%;
   display: flex;
