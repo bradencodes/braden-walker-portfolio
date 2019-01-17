@@ -1623,7 +1623,7 @@ html {
 }
 #contact-container {
   width: 100%;
-  margin-bottom: 200px;
+  height: 100vh;
 }
 @media (max-width: 600px) {
   #contact-container {
@@ -1776,6 +1776,7 @@ html {
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding-left: 160px;
+  margin-bottom: 50px;
 }
 @media (max-width: 1200px) {
   #contact-container .contacts-content-container {

@@ -1,4 +1,5 @@
 import cookbook from './project_images/cookbook.png';
+import article from './article_images/article.jpg';
 import github from './contacts/github-logo.svg';
 import linkedin from './contacts/linkedin-logo.svg';
 import email from './contacts/email.svg';
@@ -58,9 +59,9 @@ export const projectsArray = [
 export const articlesArray = [
     {
         "id": 0,
-        "title": "Lambda Labs Week 5",
-        "description": "A review of Labs polish week.",
-        "image": cookbook,
+        "title": "The latest article",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "image": article,
         "date": "December 14, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
@@ -68,45 +69,36 @@ export const articlesArray = [
     {
         "id": 1,
         "title": "This Article Has a Really Long Title, and There's Nothing You Can Do To Stop It",
-        "description": "A review of Labs polish week.",
-        "image": cookbook,
-        "date": "December 14, 2018",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+        "image": article,
+        "date": "December 13, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
 
     {
         "id": 2,
-        "title": "Lambda Labs Week 5",
-        "description": "This blog post has a long description. Even longer than the long title. That's because this is a description so it can take up more space.",
-        "image": cookbook,
-        "date": "December 14, 2018",
+        "title": "Short Test",
+        "description": "This blog post has a short description.",
+        "image": article,
+        "date": "December 12, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
 
     {
         "id": 3,
-        "title": "Lambda Labs Week 5",
-        "description": "A review of Labs polish week.",
-        "image": cookbook,
-        "date": "December 14, 2018",
+        "title": "These are all just placeholders",
+        "description": "They aren't real articles",
+        "image": article,
+        "date": "December 11, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
 
     {
         "id": 4,
-        "title": "Lambda Labs Week 5",
-        "description": "A review of Labs polish week.",
-        "image": cookbook,
-        "date": "December 14, 2018",
-        "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
-    },
-
-    {
-        "id": 5,
-        "title": "Lambda Labs Week 5",
-        "description": "A review of Labs polish week.",
-        "image": cookbook,
-        "date": "December 14, 2018",
+        "title": "Article Title",
+        "description": "Article excerpt",
+        "image": article,
+        "date": "December 10, 2018",
         "read": "https://braden-blog.netlify.com/posts/lambda-labs-sprint-challenge-5/",
     },
 ]
