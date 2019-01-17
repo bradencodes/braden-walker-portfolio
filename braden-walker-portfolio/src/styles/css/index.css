@@ -96,8 +96,8 @@ html {
 }
 @media (max-width: 600px) {
   .sidebar-container .sidebar {
-    min-width: 100px;
-    width: 100px;
+    min-width: 101px;
+    width: 101px;
   }
 }
 .sidebar-container .sidebar .my-name {
