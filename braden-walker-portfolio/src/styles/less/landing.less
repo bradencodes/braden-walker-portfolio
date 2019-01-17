@@ -126,11 +126,11 @@
         }
     
         .learn-more {
+            #craft > .middle-layer; //keeps tab above the cutout
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            #craft > .middle-layer; //keeps tab above the cutout
     
             .tab {
                 border-top-left-radius: @paper-radius;
@@ -143,6 +143,8 @@
                 align-items: center;
                 justify-content: center;
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+                text-decoration: none;
+                color: @black;
 
                 @media @desktop {
                     -webkit-transform: translateZ(0px) scale(0.8);

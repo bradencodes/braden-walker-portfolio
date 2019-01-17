@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Scrollspy from 'react-scrollspy';
 
 import github from '../resources/contacts/github-logo.svg';
 import linkedin from '../resources/contacts/linkedin-logo.svg';
@@ -53,15 +54,21 @@ class Sidebar extends Component {
                     <img className={this.handleArrowClass()} src={arrow} alt='🔽' />
                 </div>
 
-                <a href="#about-banner" className="about">about</a>
+                <Scrollspy items={ ['about-container', 'projects-container', 
+                'articles-container', 'resume-container', 'contact-container'] }
+                currentClassName="active" componentTag="div" rootEl='#app'>
 
-                <a href="#projects-banner" className="projects">projects</a>
+                    <a href="#about-container" className="about">about</a>
 
-                <a href="#articles-banner" className="articles">articles</a>
+                    <a href="#projects-container" className="projects">projects</a>
 
-                <a href="#resume-banner" className="resume">resume</a>
+                    <a href="#articles-container" className="articles">articles</a>
 
-                <a href="#contact-banner" className="contact">contact</a>
+                    <a href="#resume-container" className="resume">resume</a>
+
+                    <a href="#contact-container" className="contact">contact</a>
+                            
+                </Scrollspy>
 
             </div>
         );
