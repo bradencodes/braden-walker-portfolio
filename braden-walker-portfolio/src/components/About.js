@@ -58,7 +58,6 @@ class About extends Component {
                                 <div className="skill">CSS/LESS</div>
                                 <div className="skill">SQL/noSQL</div>
                                 <div className="skill">Python</div>
-                                <div className="skill">C</div>
                             </div>
                         </div>
 
