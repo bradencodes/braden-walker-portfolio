@@ -42,7 +42,7 @@ export const projectsArray = [
         "description": "This program creates a graph with random vertices. The position of each vertex determines its color, which match da Vinci's famous painting, the \"Mona Lisa\".",
         "image": monaLisa,
         "tools": ["Python"],
-        "github": "https://github.com/Bradiowave/Sprint-Challenge--Graphs/tree/master/graph_shortest_path",
+        "github": "https://github.com/Bradiowave/graph-mona-lisa",
         "visit": null,
     },
 
