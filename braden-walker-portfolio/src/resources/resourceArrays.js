@@ -22,6 +22,7 @@ export const projectsArray = [
         "image": cookbook,
         "tools": ["React", "LESS", "Apollo Client", "GraphQL", "Prisma DB"],
         "github": "https://github.com/Lambda-School-Labs/Labs8-Cookbook",
+        "video": "https://www.youtube.com/watch?v=kwAseuJUqoI&feature=youtu.be",
         "visit": "https://www.your-cookbook.us",
     },
 

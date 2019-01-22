@@ -74,6 +74,13 @@ class Projects extends Component {
                                 </a>
                                 }
 
+                                {project.video
+                                &&
+                                <a className="link" href={project.video}>
+                                    <div className="link-text">video</div>
+                                </a>
+                                }
+
                                 {project.visit
                                 &&
                                 <a className="link" href={project.visit}>
