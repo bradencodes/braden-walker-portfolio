@@ -53,7 +53,7 @@ export const projectsArray = [
         "image": starWars,
         "tools": ["JavaScript"],
         "github": "https://github.com/Bradiowave/Sprint-Challenge---React",
-        "visit": null,
+        "visit": "https://swapi-viewer.netlify.com/",
     },
 
     {
