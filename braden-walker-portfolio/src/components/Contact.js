@@ -55,9 +55,9 @@ class Contact extends Component {
 
                             <div className="links">
                                 
-                                <a className="link" href={contact.link}>
+                                <div className="link">
                                     <div className="link-text" >{contact.linkText}<img src={arrow} alt={arrow}/></div>
-                                </a>
+                                </div>
                                 
                             </div>
 

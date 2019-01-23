@@ -29,10 +29,10 @@ export const projectsArray = [
     {
         "id": 1,
         "title": "Note Taker",
-        "description": "A note taking app that lets you create, view, edit, and delete notes. Special Features include user accounts, markdown, support, searching, and sorting notes.",
+        "description": "A note taking app that lets you create, view, edit, and delete notes. Special Features include user accounts, markdown support, searching, and sorting notes.",
         "image": notes,
         "tools": ["React", "Express", "MongoDB"],
-        "github": "https://github.com/Bradiowave/back-end-project-week",
+        "github": "https://github.com/bradencodes/back-end-project-week",
         "visit": "https://note-taker.netlify.com/",
     },
 
@@ -42,7 +42,7 @@ export const projectsArray = [
         "description": "This program creates a graph with random vertices. The position of each vertex determines its color, which match da Vinci's famous painting, the \"Mona Lisa\".",
         "image": monaLisa,
         "tools": ["Python"],
-        "github": "https://github.com/Bradiowave/graph-mona-lisa",
+        "github": "https://github.com/bradencodes/graph-mona-lisa",
         "visit": null,
     },
 
@@ -52,7 +52,7 @@ export const projectsArray = [
         "description": "A fun little website that connects to the star wars API (SWAPI) and displays info in a fitting fashion.",
         "image": starWars,
         "tools": ["JavaScript"],
-        "github": "https://github.com/Bradiowave/Sprint-Challenge---React",
+        "github": "https://github.com/bradencodes/Sprint-Challenge---React",
         "visit": "https://swapi-viewer.netlify.com/",
     },
 
@@ -62,7 +62,7 @@ export const projectsArray = [
         "description": "My personal portfolio site. All of those animations you see are actually static images with slices of keyframes hidden behind bars. Check out my blog post to learn more.",
         "image": portfolio,
         "tools": ["React", "LESS"],
-        "github": "https://github.com/Bradiowave/braden-walker-portfolio",
+        "github": "https://github.com/bradencodes/braden-walker-portfolio",
         "visit": "#",
     },
 ]
@@ -118,27 +118,27 @@ export const contactsArray = [
     {
         "id": 0,
         "title": "GitHub",
-        "description": "github.com/Bradiowave",
+        "description": "github.com/bradencodes",
         "image": github,
-        "link": "https://github.com/Bradiowave",
+        "link": "https://github.com/bradencodes",
         "linkText": "view",
     },
 
     {
         "id": 1,
         "title": "LinkedIn",
-        "description": "in/the-braden-walker",
+        "description": "in/bradencodes",
         "image": linkedin,
-        "link": "https://www.linkedin.com/in/the-braden-walker",
+        "link": "https://www.linkedin.com/in/bradencodes",
         "linkText": "connect",
     },
 
     {
         "id": 2,
         "title": "Email",
-        "description": "bradenw37@gmail.com",
+        "description": "bradencodes@gmail.com",
         "image": email,
         "link": "#",
-        "linkText": "copy to clipboard",
+        "linkText": "write me",
     },
 ]

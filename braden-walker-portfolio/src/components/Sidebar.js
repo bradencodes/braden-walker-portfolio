@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 
-import github from '../resources/contacts/github-logo.svg';
-import linkedin from '../resources/contacts/linkedin-logo.svg';
-import email from '../resources/contacts/email.svg';
+import { contactsArray } from '../resources/resourceArrays.js';
 import arrow from '../resources/icons/down-arrow.png';
 
 class Sidebar extends Component {
@@ -37,18 +35,14 @@ class Sidebar extends Component {
                     <a href="#landing-container" className="my-name">Braden Walker</a>
 
                     <div className="quick-contacts">
-                    
-                        <a href="https://github.com/Bradiowave">
-                            <img src={github} alt="github"></img>
-                        </a>
 
-                        <a href="https://www.linkedin.com/in/the-braden-walker">
-                            <img src={linkedin} alt="linkedin"></img>
-                        </a>
+                        {contactsArray.map(contact => (
 
-                        <a href="#">
-                            <img src={email} alt="email"></img>
-                        </a>
+                            <a key={contact.id} href={contact.link}>
+                                <img src={contact.image} alt={contact.title} />
+                            </a>
+
+                        ))}
 
                     </div>
                 
