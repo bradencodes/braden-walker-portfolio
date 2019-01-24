@@ -362,6 +362,25 @@ html {
 .sidebar-container .active {
   z-index: 1;
 }
+.sidebar-container .out-of-focus {
+  width: 1600px;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .sidebar-container .out-of-focus {
+    display: flex;
+  }
+}
+.sidebar-container .in-focus {
+  width: 0;
+  height: 0;
+}
 .hidden {
   margin-left: 0;
 }

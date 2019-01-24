@@ -8,6 +8,7 @@ import Resume from "./Resume.js";
 import Contact from "./Contact.js";
 
 class Home extends Component {
+
     render() {
         return (
             <div className="home-container">

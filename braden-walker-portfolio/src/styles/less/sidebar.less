@@ -218,6 +218,27 @@
         z-index: 1;
     }
 
+    .out-of-focus {
+        width: 1600px;
+        height: 100vh;
+        background-color: rgba(0,0,0,.50);
+        backdrop-filter: blur(20px);
+        z-index: -10;
+        position: absolute;
+        top: 0;
+
+        display: none;
+
+        @media @desktop {
+            display: flex;
+        }
+    }
+
+    .in-focus {
+        width: 0;
+        height: 0;
+    }
+
 }
 
 .hidden {

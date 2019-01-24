@@ -12,6 +12,10 @@ class Sidebar extends Component {
         };
     };
 
+    toggleIsHidden = () => {
+        this.setState({ isHidden: !this.state.isHidden });
+    }
+
     handleSidebarContainerClass = () => {
         if (this.state.isHidden) return "sidebar-container hidden";
         return "sidebar-container";
@@ -22,8 +26,9 @@ class Sidebar extends Component {
         return "arrow-left";
     }
 
-    toggleIsHidden = () => {
-        this.setState({ isHidden: !this.state.isHidden });
+    handleFocusClass = () => {
+        if (this.state.isHidden) return "in-focus";
+        return "out-of-focus";
     }
 
     render() {
@@ -69,6 +74,8 @@ class Sidebar extends Component {
                     <a href="#contact-container" className="contact">contact</a>
                             
                 </Scrollspy>
+
+                <div className={this.handleFocusClass()} onClick={() => this.toggleIsHidden()}/>
 
             </div>
         );
