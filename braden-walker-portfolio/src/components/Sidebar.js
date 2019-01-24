@@ -38,7 +38,7 @@ class Sidebar extends Component {
 
                         {contactsArray.map(contact => (
 
-                            <a key={contact.id} href={contact.link}>
+                            <a key={contact.id} href={contact.title==="Email" ? `mailto:${contact.link}` : contact.link}>
                                 <img src={contact.image} alt={contact.title} />
                             </a>
 

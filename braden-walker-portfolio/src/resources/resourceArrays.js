@@ -138,7 +138,7 @@ export const contactsArray = [
         "title": "Email",
         "description": "bradencodes@gmail.com",
         "image": email,
-        "link": "#",
+        "link": "bradencodes@gmail.com",
         "linkText": "write me",
     },
 ]

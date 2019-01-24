@@ -41,7 +41,8 @@ class Contact extends Component {
 
                     {contactsArray.map(contact => (
 
-                        <a href={contact.link} key={contact.id} className="contact-sticker">
+                        <a href={contact.title==="Email" ? `mailto:${contact.link}` : contact.link} 
+                        key={contact.id} className="contact-sticker">
 
                             <img className="contact-image" src={contact.image} alt={contact.title} />
 
