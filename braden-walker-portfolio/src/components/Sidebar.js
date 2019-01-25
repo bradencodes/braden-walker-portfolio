@@ -8,7 +8,7 @@ class Sidebar extends Component {
     constructor() {
         super();
         this.state = {
-            isHidden: false,
+            isHidden: true,
         };
     };
 
