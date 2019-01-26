@@ -27,7 +27,7 @@ class Sidebar extends Component {
     }
 
     handleFocusClass = () => {
-        if (this.state.isHidden) return "in-focus";
+        if (this.state.isHidden) return "out-of-focus in-focus";
         return "out-of-focus";
     }
 
