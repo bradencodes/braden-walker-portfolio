@@ -8,7 +8,7 @@ import me_square from '../resources/icons/me-square.png';
 class About extends Component {
     render() {
         return (
-            <div id="about-container">
+            <div id="about">
 
                 <div id="about-banner">
 

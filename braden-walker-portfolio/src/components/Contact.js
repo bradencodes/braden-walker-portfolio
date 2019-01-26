@@ -9,7 +9,7 @@ import arrow from '../resources/icons/down-arrow.png';
 class Contact extends Component {
     render() {
         return (
-            <div id="contact-container">
+            <div id="contact">
 
                 <div id="contact-banner">
 

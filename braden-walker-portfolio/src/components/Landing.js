@@ -7,7 +7,7 @@ import arrow from '../resources/icons/down-arrow.png';
 class Landing extends Component {
     render() {
         return (
-            <div id="landing-container">
+            <div id="home">
 
                 <div className="bars-container">
 

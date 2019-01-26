@@ -9,7 +9,7 @@ import arrow from '../resources/icons/down-arrow.png';
 class Articles extends Component {
     render() {
         return (
-            <div id="articles-container">
+            <div id="articles">
 
                 <div id="articles-banner">
 

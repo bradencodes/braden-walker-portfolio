@@ -10,7 +10,7 @@ import resume_download from '../resources/contacts/Braden-Walker-Resume.pdf';
 class Resume extends Component {
     render() {
         return (
-            <div id="resume-container">
+            <div id="resume">
 
                 <div id="resume-banner">
 
