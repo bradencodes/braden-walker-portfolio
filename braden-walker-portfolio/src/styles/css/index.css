@@ -15,7 +15,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -36,7 +36,7 @@ html {
 }
 #craft .sticker {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
 }
 #craft .top-layer {
@@ -60,13 +60,14 @@ html {
   perspective: 1px;
   overflow-x: hidden;
   overflow-y: auto;
+  background-color: #f1f1f1;
 }
 #app .rightbar {
   display: flex;
   -webkit-flex-grow: 1;
   flex-grow: 1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
-  background: #ffffff;
+  background: #f1f1f1;
   height: 100vh;
   position: sticky;
   top: 0;
@@ -85,7 +86,7 @@ html {
 }
 .sidebar-container .sidebar {
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.35);
-  background: #ffffff;
+  background: #f1f1f1;
   height: 100vh;
   min-width: 180px;
   display: flex;
@@ -115,7 +116,7 @@ html {
   min-height: 120px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  background: #ffffff;
+  background: #f1f1f1;
   text-decoration: none;
   color: #000000;
   text-align: center;
@@ -156,7 +157,7 @@ html {
   padding: 10px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   border-radius: 2px;
-  background: #ffffff;
+  background: #f1f1f1;
   cursor: pointer;
 }
 .sidebar-container .sidebar-extended-shadow {
@@ -183,7 +184,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -220,7 +221,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -250,7 +251,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -280,7 +281,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -310,7 +311,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -340,7 +341,7 @@ html {
   font-family: 'Staatliches', cursive;
   font-size: 3rem;
   cursor: pointer;
-  background: #ffffff;
+  background: #f1f1f1;
   box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -502,7 +503,7 @@ html {
   display: flex;
   flex-direction: column;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 501px;
@@ -587,7 +588,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background: #ffffff;
+  background: #f1f1f1;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -717,7 +718,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -850,7 +851,7 @@ html {
   transform: translateZ(0px) scale(1);
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  background: #ffffff;
+  background: #f1f1f1;
   margin: 9px;
   padding: 10px;
   color: #0099dd;
@@ -984,7 +985,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1148,7 +1149,7 @@ html {
 }
 #projects .projects-content-container .project-cutout .links .link {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -1300,7 +1301,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1343,7 +1344,7 @@ html {
 }
 #articles .articles-content-container .article-sticker {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   -webkit-transform: translateZ(0.02px) scale(0.98);
   transform: translateZ(0.02px) scale(0.98);
@@ -1394,7 +1395,7 @@ html {
 }
 #articles .articles-content-container .article-sticker .links .link {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -1540,7 +1541,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1617,7 +1618,7 @@ html {
 }
 #resume .resume-content-container .resume-content-cutout .links .link {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -1763,7 +1764,7 @@ html {
   align-items: center;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-  background: #ffffff;
+  background: #f1f1f1;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1807,7 +1808,7 @@ html {
 }
 #contact .contacts-content-container .contact-sticker {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   -webkit-transform: translateZ(0.02px) scale(0.98);
   transform: translateZ(0.02px) scale(0.98);
@@ -1860,7 +1861,7 @@ html {
 }
 #contact .contacts-content-container .contact-sticker .links .link {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
-  background: #ffffff;
+  background: #f1f1f1;
   border-radius: 2px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
