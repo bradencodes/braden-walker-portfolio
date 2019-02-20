@@ -989,6 +989,7 @@ html {
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   background: #f1f1f1;
+  color: #3333ff;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1088,6 +1089,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
   margin: 10px 0 10px 80px;
+  color: #3333ff;
 }
 @media (max-width: 900px) {
   #projects .projects-content-container .project-cutout .text {
