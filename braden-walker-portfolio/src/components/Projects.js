@@ -4,7 +4,7 @@ import bars from '../resources/scanimation/bars45large.png';
 import magentaBars from '../resources/scanimation/magentaBars.png';
 import projects_scanimation from '../resources/scanimation/projects45.png';
 import { projectsArray } from '../resources/resourceArrays.js';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 
 class Projects extends Component {
     render() {

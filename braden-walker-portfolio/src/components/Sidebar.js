@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 
 import { contactsArray } from '../resources/resourceArrays.js';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 
 class Sidebar extends Component {
     constructor() {

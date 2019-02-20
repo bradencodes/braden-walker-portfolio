@@ -4,7 +4,7 @@ import bars from '../resources/scanimation/bars45large.png';
 import yellowBars from '../resources/scanimation/yellowBars.png';
 import articles_scanimation from '../resources/scanimation/articles45.png';
 import { articlesArray } from '../resources/resourceArrays.js';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 
 class Articles extends Component {
     render() {

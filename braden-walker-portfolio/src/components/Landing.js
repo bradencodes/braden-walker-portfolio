@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import bars from '../resources/scanimation/bars45large.png';
 import me from '../resources/scanimation/me45.png';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 
 class Landing extends Component {
     render() {
