@@ -4,7 +4,7 @@ import bars from '../resources/scanimation/bars45large.png';
 import magentaBars from '../resources/scanimation/magentaBars.png';
 import contact_scanimation from '../resources/scanimation/contact45.png';
 import { contactsArray } from '../resources/resourceArrays.js';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 
 class Contact extends Component {
     render() {

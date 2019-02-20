@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import bars from '../resources/scanimation/bars45large.png';
 import cyanBars from '../resources/scanimation/cyanBars.png';
 import resume_scanimation from '../resources/scanimation/resume45.png';
-import arrow from '../resources/icons/down-arrow.png';
+import arrow from '../resources/icons/down-arrow.svg';
 import my_resume from '../resources/contacts/my_resume.png';
 import resume_download from '../resources/contacts/Braden-Walker-Resume.pdf';
 
