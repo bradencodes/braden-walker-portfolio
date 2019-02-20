@@ -20,7 +20,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
 }
 #sidebar .nav-before {
   content: '';
@@ -118,7 +118,7 @@ html {
   border-radius: 2px;
   background: #f1f1f1;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   text-align: center;
   cursor: pointer;
 }
@@ -189,7 +189,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -100vh;
   margin-right: -197px;
   width: 198px;
@@ -226,7 +226,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -80vh;
   margin-right: -99px;
   width: 100px;
@@ -256,7 +256,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -70vh;
   margin-right: -139px;
   width: 140px;
@@ -286,7 +286,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -60vh;
   margin-right: -130px;
   width: 131px;
@@ -316,7 +316,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -50vh;
   margin-right: -117px;
   width: 118px;
@@ -346,7 +346,7 @@ html {
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
   margin-top: -40vh;
   margin-right: -124px;
   width: 125px;
@@ -504,6 +504,7 @@ html {
   flex-direction: column;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
   background: #f1f1f1;
+  color: #3333ff;
   overflow: hidden;
   position: absolute;
   margin-left: 501px;
@@ -574,7 +575,7 @@ html {
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
 }
 @media (max-width: 1200px) {
   #home .landing-cutout .learn-more .tab {
@@ -719,6 +720,7 @@ html {
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   background: #f1f1f1;
+  color: #3333ff;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1167,7 +1169,7 @@ html {
 #projects .projects-content-container .project-cutout .links .link .link-text {
   z-index: 1;
   text-align: center;
-  color: #000000;
+  color: #3333ff;
   font-size: 1.3rem;
   font-weight: bold;
   border-bottom: solid 3px #d90d79;
@@ -1407,7 +1409,7 @@ html {
 #articles .articles-content-container .article-sticker .links .link .link-text {
   z-index: 1;
   text-align: center;
-  color: #000000;
+  color: #3333ff;
   font-size: 1.3rem;
   font-weight: bold;
   border-bottom: solid 3px #ffdd00;
@@ -1630,7 +1632,7 @@ html {
 #resume .resume-content-container .resume-content-cutout .links .link .link-text {
   z-index: 1;
   text-align: center;
-  color: #000000;
+  color: #3333ff;
   font-size: 1.3rem;
   font-weight: bold;
   border-bottom: solid 3px #0099dd;
@@ -1821,7 +1823,7 @@ html {
   align-items: center;
   padding: 20px;
   text-decoration: none;
-  color: #000000;
+  color: #3333ff;
 }
 @media (max-width: 600px) {
   #contact .contacts-content-container .contact-sticker {
@@ -1873,7 +1875,7 @@ html {
 #contact .contacts-content-container .contact-sticker .links .link .link-text {
   z-index: 1;
   text-align: center;
-  color: #000000;
+  color: #3333ff;
   font-size: 1.3rem;
   font-weight: bold;
   border-bottom: solid 3px #d90d79;
