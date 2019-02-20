@@ -1307,6 +1307,7 @@ html {
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   background: #f1f1f1;
+  color: #3333ff;
   overflow: hidden;
   position: absolute;
   margin-left: 390px;
@@ -1377,6 +1378,7 @@ html {
   display: flex;
   flex-direction: column;
   padding: 30px;
+  color: #3333ff;
 }
 #articles .articles-content-container .article-sticker .text .title {
   font-size: 2rem;
