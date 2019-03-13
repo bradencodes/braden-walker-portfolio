@@ -1,3 +1,4 @@
+import connect4 from './project_images/connect4.png';
 import cookbook from './project_images/cookbook.png';
 import notes from './project_images/notes.png';
 import portfolio from './project_images/portfolio.png';
@@ -17,6 +18,16 @@ import email from './contacts/email.svg';
 export const projectsArray = [
     {
         "id": 0,
+        "title": "Connect 4",
+        "description": "A web app that anonymously matches users for a game of Connect 4. It can be played on any device, and the app instantly updates thanks to sockets!",
+        "image": connect4,
+        "tools": ["React", "LESS", "Express", "Socket.io", "MongoDB"],
+        "github": "https://github.com/bradencodes/connect-four",
+        "visit": "https://connect-1234.netlify.com/",
+    },
+
+    {
+        "id": 1,
         "title": "COOKBOOK",
         "description": "A website that allows you to save recipes from anywhere on the web into one place. You can view your recipes, schedule them in a calendar, and create a cohesive grocery list of all necessary ingredients.",
         "image": cookbook,
@@ -27,7 +38,7 @@ export const projectsArray = [
     },
 
     {
-        "id": 1,
+        "id": 2,
         "title": "Note Taker",
         "description": "A note taking app that lets you create, view, edit, and delete notes. Special Features include user accounts, markdown support, searching, and sorting notes.",
         "image": notes,
@@ -37,7 +48,7 @@ export const projectsArray = [
     },
 
     {
-        "id": 2,
+        "id": 3,
         "title": "Graph Mona Lisa",
         "description": "This program creates a graph with random vertices. The position of each vertex determines its color, which match da Vinci's famous painting, the \"Mona Lisa\".",
         "image": monaLisa,
@@ -47,7 +58,7 @@ export const projectsArray = [
     },
 
     {
-        "id": 3,
+        "id": 4,
         "title": "Star Wars API Viewer",
         "description": "A fun little website that connects to the star wars API (SWAPI) and displays info in a fitting fashion.",
         "image": starWars,
@@ -57,7 +68,7 @@ export const projectsArray = [
     },
 
     {
-        "id": 4,
+        "id": 5,
         "title": "Braden Walker's Portfolio",
         "description": "My personal portfolio site with everything about me. My goal was to make a site that was simple yet still visually appealing and fun to explore.",
         "image": portfolio,
