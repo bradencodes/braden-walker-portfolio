@@ -92,6 +92,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 @media (min-width: 1800px) {
   .sidebar-container .sidebar {
@@ -139,6 +140,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  position: absolute;
   padding-bottom: 50px;
   z-index: 1;
 }
