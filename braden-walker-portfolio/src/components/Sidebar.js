@@ -59,15 +59,14 @@ class Sidebar extends Component {
                     <img className={this.handleArrowClass()} src={arrow} alt='🔽' />
                 </div>
 
-                <Scrollspy items={ ['about', 'projects', 
-                'articles', 'resume', 'contact'] }
+                <Scrollspy items={ ['about', 'projects', 'resume', 'contact'] }
                 currentClassName="active" componentTag="div" rootEl='#app'>
 
                     <a href="#about" className="about">about</a>
 
                     <a href="#projects" className="projects">projects</a>
 
-                    <a href="#articles" className="articles">articles</a>
+                    {/* <a href="#articles" className="articles">articles</a> */}
 
                     <a href="#resume" className="resume">resume</a>
 

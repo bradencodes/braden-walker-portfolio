@@ -143,6 +143,7 @@ html {
   position: absolute;
   padding-bottom: 50px;
   z-index: 1;
+  pointer-events: none;
 }
 @media (min-width: 1800px) {
   .sidebar-container .sidebar .quick-contacts {
@@ -161,6 +162,7 @@ html {
   border-radius: 2px;
   background: #f2f2f2;
   cursor: pointer;
+  pointer-events: auto;
 }
 .sidebar-container .sidebar-extended-shadow {
   box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.15);
@@ -273,36 +275,6 @@ html {
   left: -6px;
   border-left: 6px solid #d90d79;
 }
-.sidebar-container .articles {
-  height: 50px;
-  position: absolute;
-  right: 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Staatliches', cursive;
-  font-size: 3rem;
-  cursor: pointer;
-  background: #f2f2f2;
-  box-shadow: 6px 6px 10px -3px rgba(0, 0, 0, 0.35);
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  text-decoration: none;
-  color: #1a1a1a;
-  margin-top: -60vh;
-  margin-right: -130px;
-  width: 131px;
-  z-index: -3;
-}
-.sidebar-container .articles::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: -6px;
-  border-left: 6px solid #ffdd00;
-}
 .sidebar-container .resume {
   height: 50px;
   position: absolute;
@@ -319,7 +291,7 @@ html {
   border-bottom-right-radius: 2px;
   text-decoration: none;
   color: #1a1a1a;
-  margin-top: -50vh;
+  margin-top: -60vh;
   margin-right: -117px;
   width: 118px;
   z-index: -4;
@@ -349,7 +321,7 @@ html {
   border-bottom-right-radius: 2px;
   text-decoration: none;
   color: #1a1a1a;
-  margin-top: -40vh;
+  margin-top: -50vh;
   margin-right: -124px;
   width: 125px;
   z-index: -5;
