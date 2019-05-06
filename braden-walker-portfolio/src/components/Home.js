@@ -19,7 +19,7 @@ class Home extends Component {
 
                 <Projects />
 
-                <Articles />
+                {/* <Articles /> */}
 
                 <Resume />
 
