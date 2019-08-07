@@ -1,265 +1,263 @@
 .sidebar-container {
-    z-index: 1000;
-    position: sticky;
-    top: 0;
-    -webkit-flex-grow: 1;
-    flex-grow: 1;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
 
-    transition: all 0.2s ease;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition:    all 0.2s ease;
-    -ms-transition:     all 0.2s ease;
-    -o-transition:      all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 
-    .sidebar {
-        box-shadow: 2px 0px 10px rgba(0, 0, 0, .35);
-        background: @white;
-        height: 100vh;
-        min-width: 180px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative; // Add to fix Chrome "bug"
-        // -webkit-flex-grow: 1;
-        // flex-grow: 1;
+  .sidebar {
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.35);
+    background: @white;
+    height: 100vh;
+    min-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; // Add to fix Chrome "bug"
+    // -webkit-flex-grow: 1;
+    // flex-grow: 1;
 
-        @media @giant {
-            align-items: flex-end;
-            padding-right: 20px;
-        }
-
-        @media @phone {
-            min-width: 100px;
-            width: 100px;
-        }
-
-        .my-name {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: @secondary-font;
-            font-size: 4rem;
-            margin-top: 40px;
-            width: 150px;
-            min-height: 120px;
-            box-shadow: 3px 3px 5px rgba(0, 0, 0, .20);
-            border-radius: @paper-radius;
-            background: @white;
-            text-decoration: none;
-            color: @black;
-            text-align: center;
-            cursor: pointer;
-
-            @media @phone {
-                transform: rotate(-90deg);
-                font-size: 3.3rem;
-                margin: 100px 0 100px;
-                width: 225px;
-                min-height: 60px;
-                box-shadow: -3px 3px 5px rgba(0, 0, 0, .20);
-            }
-        }
-
-        .quick-contacts {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-end; // Breaks in Chrome as of 3/27/19??
-            position: absolute; // Add this to fix Chrome "bug"
-            padding-bottom: 50px;
-            z-index: 1;
-            pointer-events: none;
-
-            @media @giant {
-                align-items: flex-end;
-                padding-right: 50px;
-            }
-
-            a {
-                margin-bottom: 20px;
-
-                img {
-                    width: 50px;
-                    height: 50px;
-                    padding: 10px;
-                    
-                    box-shadow: 3px 3px 5px rgba(0, 0, 0, .10);
-                    border-radius: @paper-radius;
-                    background: @white;
-                    cursor: pointer;
-                    pointer-events: auto;
-                }
-            }
-        }
-    }
-
-    .sidebar-extended-shadow {
-        box-shadow: 2px 0px 20px rgba(0, 0, 0, .15);
-        height: 100vh;
-        width: 180px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -10;
-
-        @media @phone {
-            width: 100px;
-        }
-    }
-
-
-    @nav-offset: -80vh;
-    @nav-spacing: 10vh;
-
-    .toggle-nav {
-        #sidebar > .nav;
-
-        margin-top: -100vh;
-        margin-right: -197px;
-        width: 198px;
-        padding-right: 11px;
-        z-index: 1;
-
-        display: none;
-
-        @media @desktop {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .arrow-left {
-            height: 30px;
-            transform: rotate(90deg);
-        }
-        .arrow-right {
-            height: 30px;
-            transform: rotate(-90deg);
-        }
-    }
-
-    .about {
-        #sidebar > .nav;
-
-        margin-top: (@nav-spacing * 0) + @nav-offset;
-        margin-right: -99px;
-        width: 100px;
-
-        z-index: -1;
-        // z-index: 1;
-
-        &::before {
-            #sidebar > .nav-before;
-            border-left: 6px solid @cyan;
-        }
-    }
-    
-    .projects {
-        #sidebar > .nav;
-
-        margin-top: (@nav-spacing * 1) + @nav-offset;
-        margin-right: -139px;
-        width: 140px;
-
-        z-index: -2;
-        // z-index: 1;
-
-        &::before {
-            #sidebar > .nav-before;
-            border-left: 6px solid @magenta;
-        }
-    }
-
-    // .articles {
-    //     #sidebar > .nav;
-
-    //     margin-top: (@nav-spacing * 2) + @nav-offset;
-    //     margin-right: -130px;
-    //     width: 131px;
-
-    //     z-index: -3;
-    //     // z-index: 1;
-
-    //     &::before {
-    //         #sidebar > .nav-before;
-    //         border-left: 6px solid @yellow;
-    //     }
-    // }
-
-    .resume {
-        #sidebar > .nav;
-
-        margin-top: (@nav-spacing * 2) + @nav-offset;
-        margin-right: -117px;
-        width: 118px;
-
-        z-index: -4;
-        // z-index: 1;
-
-        &::before {
-            #sidebar > .nav-before;
-            border-left: 6px solid @cyan;
-        }
-    }
-
-    .contact {
-        #sidebar > .nav;
-
-        margin-top: (@nav-spacing * 3) + @nav-offset;
-        margin-right: -124px;
-        width: 125px;
-
-        z-index: -5;
-        // z-index: 1;
-
-        &::before {
-            #sidebar > .nav-before;
-            border-left: 6px solid @magenta;
-        }
-    }
-
-    .active {
-        z-index: 1;
-    }
-
-    .out-of-focus {
-        display: none;
-
-        @media @desktop {
-            width: 1600px;
-            height: 100vh;
-            background-color: rgba(0,0,0,.5);
-            z-index: -10;
-            position: absolute;
-            top: 0;
-            display: flex;
-
-            transition: all 0.5s ease;
-            -webkit-transition: all 0.5s ease;
-            -moz-transition:    all 0.5s ease;
-            -ms-transition:     all 0.5s ease;
-            -o-transition:      all 0.5s ease;
-        }
-    }
-
-    .in-focus {
-        visibility: hidden;
-        background-color: rgba(0,0,0,0);
-    }
-
-}
-
-.hidden {
-    margin-left: 0;
-
-    @media @desktop {
-        margin-left: -328px;
-        margin-right: 328px;
+    @media @giant {
+      align-items: flex-end;
+      padding-right: 20px;
     }
 
     @media @phone {
-        margin-left: -248px;
-        margin-right: 248px;
+      min-width: 100px;
+      width: 100px;
     }
+
+    .my-name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: @secondary-font;
+      font-size: 4rem;
+      margin-top: 40px;
+      width: 150px;
+      min-height: 120px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+      border-radius: @paper-radius;
+      background: @white;
+      text-decoration: none;
+      color: @black;
+      text-align: center;
+      cursor: pointer;
+
+      @media @phone {
+        transform: rotate(-90deg);
+        font-size: 3.3rem;
+        margin: 100px 0 100px;
+        width: 225px;
+        min-height: 60px;
+        box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .quick-contacts {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end; // Breaks in Chrome as of 3/27/19??
+      position: absolute; // Add this to fix Chrome "bug"
+      padding-bottom: 50px;
+      z-index: 1;
+      pointer-events: none;
+
+      @media @giant {
+        align-items: flex-end;
+        padding-right: 50px;
+      }
+
+      a {
+        margin-bottom: 20px;
+
+        img {
+          width: 50px;
+          height: 50px;
+          padding: 10px;
+
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+          border-radius: @paper-radius;
+          background: @white;
+          cursor: pointer;
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+
+  .sidebar-extended-shadow {
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.15);
+    height: 100vh;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+
+    @media @phone {
+      width: 100px;
+    }
+  }
+
+  @nav-offset: -80vh;
+  @nav-spacing: 10vh;
+
+  .toggle-nav {
+    #sidebar > .nav;
+
+    margin-top: -100vh;
+    margin-right: -197px;
+    width: 198px;
+    padding-right: 11px;
+    z-index: 1;
+
+    display: none;
+
+    @media @desktop {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .arrow-left {
+      height: 30px;
+      transform: rotate(90deg);
+    }
+    .arrow-right {
+      height: 30px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  .about {
+    #sidebar > .nav;
+
+    margin-top: (@nav-spacing * 0) + @nav-offset;
+    margin-right: -99px;
+    width: 100px;
+
+    z-index: -1;
+    // z-index: 1;
+
+    &::before {
+      #sidebar > .nav-before;
+      border-left: 6px solid @cyan;
+    }
+  }
+
+  .projects {
+    #sidebar > .nav;
+
+    margin-top: (@nav-spacing * 1) + @nav-offset;
+    margin-right: -139px;
+    width: 140px;
+
+    z-index: -2;
+    // z-index: 1;
+
+    &::before {
+      #sidebar > .nav-before;
+      border-left: 6px solid @magenta;
+    }
+  }
+
+  // .articles {
+  //     #sidebar > .nav;
+
+  //     margin-top: (@nav-spacing * 2) + @nav-offset;
+  //     margin-right: -130px;
+  //     width: 131px;
+
+  //     z-index: -3;
+  //     // z-index: 1;
+
+  //     &::before {
+  //         #sidebar > .nav-before;
+  //         border-left: 6px solid @yellow;
+  //     }
+  // }
+
+  .resume {
+    #sidebar > .nav;
+
+    margin-top: (@nav-spacing * 2) + @nav-offset;
+    margin-right: -117px;
+    width: 118px;
+
+    z-index: -4;
+    // z-index: 1;
+
+    &::before {
+      #sidebar > .nav-before;
+      border-left: 6px solid @cyan;
+    }
+  }
+
+  .contact {
+    #sidebar > .nav;
+
+    margin-top: (@nav-spacing * 3) + @nav-offset;
+    margin-right: -124px;
+    width: 125px;
+
+    z-index: -5;
+    // z-index: 1;
+
+    &::before {
+      #sidebar > .nav-before;
+      border-left: 6px solid @magenta;
+    }
+  }
+
+  .active {
+    z-index: 1;
+  }
+
+  .out-of-focus {
+    display: none;
+
+    @media @desktop {
+      width: 1600px;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -10;
+      position: absolute;
+      top: 0;
+      display: flex;
+
+      transition: all 0.5s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+    }
+  }
+
+  .in-focus {
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.hidden {
+  margin-left: 0;
+
+  @media @desktop {
+    margin-left: -328px;
+    margin-right: 328px;
+  }
+
+  @media @phone {
+    margin-left: -248px;
+    margin-right: 248px;
+  }
 }
