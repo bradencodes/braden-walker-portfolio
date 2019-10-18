@@ -1,3 +1,4 @@
+import cloxel from './project_images/cloxel.png';
 import connect4 from './project_images/connect4.png';
 import cookbook from './project_images/cookbook.png';
 import notes from './project_images/notes.png';
@@ -17,7 +18,18 @@ import email from './contacts/email.svg';
 
 export const projectsArray = [
   {
-    id: 0,
+    id: 6,
+    title: 'Cloxel',
+    description:
+      'A web app that allows you to set goals and track the time you put into activities. As you complete your goals, you earn break time to let you relax between activities.',
+    image: cloxel,
+    tools: ['React', 'Redux', 'Material-UI', 'Express', 'MongoDB'],
+    github: 'https://github.com/bradencodes/cloxel',
+    visit: 'https://cloxel.netlify.com'
+  },
+
+  {
+    id: 5,
     title: 'Connect 4',
     description:
       'A web app that anonymously matches users for a game of Connect 4. It can be played on any device, and the app instantly updates thanks to sockets!',
@@ -28,7 +40,7 @@ export const projectsArray = [
   },
 
   {
-    id: 1,
+    id: 4,
     title: 'COOKBOOK',
     description:
       'A website that allows you to save recipes from anywhere on the web into one place. You can view your recipes, schedule them in a calendar, and create a cohesive grocery list of all necessary ingredients.',
@@ -40,7 +52,7 @@ export const projectsArray = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: 'Note Taker',
     description:
       'A note taking app that lets you create, view, edit, and delete notes. Special Features include user accounts, markdown support, searching, and sorting notes.',
@@ -51,7 +63,7 @@ export const projectsArray = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: 'Graph Mona Lisa',
     description:
       'This program creates a graph with random vertices. The position of each vertex determines its color, which match da Vinci\'s famous painting, the "Mona Lisa".',
@@ -62,7 +74,7 @@ export const projectsArray = [
   },
 
   {
-    id: 4,
+    id: 1,
     title: 'Star Wars API Viewer',
     description:
       'A fun little website that connects to the star wars API (SWAPI) and displays info in a fitting fashion.',
@@ -73,7 +85,7 @@ export const projectsArray = [
   },
 
   {
-    id: 5,
+    id: 0,
     title: "Braden Walker's Portfolio",
     description:
       'My personal portfolio site with everything about me. My goal was to make a site that was simple yet still visually appealing and fun to explore.',
